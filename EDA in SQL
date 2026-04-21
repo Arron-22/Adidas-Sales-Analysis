@@ -1,0 +1,49 @@
+SELECT * 
+FROM adidas_sales_new;
+
+-- Changing invocie_date coloumn from a text coloumn to a date coloumn 
+SELECT invoice_date,
+STR_TO_DATE(invoice_date, '%d/%m/%Y')
+FROM adidas_sales_new;
+
+UPDATE adidas_sales_new
+SET invoice_date = STR_TO_DATE(invoice_date, '%d/%m/%Y');
+
+-- Exploratory Data Analysis
+SELECT * 
+FROM adidas_sales_new;
+
+-- Total sales and profit per region 
+SELECT region, SUM(total_sales) AS sales, SUM(operating_profit) AS profit
+FROM adidas_sales_new
+GROUP BY region
+ORDER BY  sales DESC, profit DESC;
+
+-- Total sales and profit per retailer
+SELECT DISTINCT(retailer), SUM(total_sales) AS sales, SUM(operating_profit) AS profit
+FROM adidas_sales_new
+GROUP BY retailer
+ORDER BY  sales DESC, profit DESC;
+
+-- Total sales and profit per product
+SELECT DISTINCT(product), SUM(total_sales) AS sales, SUM(operating_profit) AS profit
+FROM adidas_sales_new
+GROUP BY product
+ORDER BY  sales DESC, profit DESC;
+
+-- Sales and profit over time
+SELECT YEAR(invoice_date), SUM(total_sales) AS sales, SUM(operating_profit) AS profit
+FROM adidas_sales_new
+GROUP BY YEAR(invoice_date)
+ORDER BY YEAR(invoice_date);
+
+-- Sales and profit over time per month
+SELECT SUBSTRING(invoice_date,1,7) AS `Month`, SUM(total_sales) AS sales, SUM(operating_profit) AS profit
+FROM adidas_sales_new
+GROUP BY `Month`
+ORDER BY 1 ASC ;
+
+
+
+
+
