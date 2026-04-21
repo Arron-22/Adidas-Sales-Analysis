@@ -1,0 +1,226 @@
+SELECT *
+FROM adidas_us_sales_messy;
+-- Renmane columns name to have _
+ALTER TABLE adidas_us_sales_messy
+RENAME COLUMN 
+`ï»¿Retailer` To Retailer;
+
+ALTER TABLE adidas_us_sales_messy
+RENAME COLUMN 
+`Retailer ID` TO Retailer_id;
+
+ALTER TABLE adidas_us_sales_messy
+RENAME COLUMN 
+`Invoice Date` TO Invoice_date;
+
+ALTER TABLE adidas_us_sales_messy
+RENAME COLUMN 
+`Price Per Unit` To Price_per_unit;
+
+ALTER TABLE adidas_us_sales_messy
+RENAME COLUMN 
+`Units Sold` TO Units_sold;
+
+ALTER TABLE adidas_us_sales_messy
+RENAME COLUMN 
+`Total Sales` TO Total_sales;
+
+ALTER TABLE adidas_us_sales_messy
+RENAME COLUMN 
+`Operating Profit` TO Operating_profit;
+
+ALTER TABLE adidas_us_sales_messy
+RENAME COLUMN 
+`Operating Margin` TO Operating_margin;
+
+ALTER TABLE adidas_us_sales_messy
+RENAME COLUMN 
+`Sales Method` TO Sales_method;
+
+-- Check & Remove Duplicates
+SELECT *
+FROM adidas_us_sales_messy;
+
+-- Created a cte to check what Rows are duplicate by partition by every coloumn 
+WITH duplicate_cte AS(
+SELECT *,
+ROW_NUMBER() OVER(
+PARTITION BY Retailer, Retailer_id, Invoice_date,Region, State, City, Product, Price_per_unit, 
+Units_sold, Total_Sales, Operating_profit, Operating_margin, Sales_Method) AS row_num
+FROM adidas_us_sales_messy)
+SELECT * 
+FROM duplicate_cte
+WHERE row_num > 1;
+
+-- Double checked the dulpicate data 
+SELECT * 
+FROM adidas_us_sales_messy
+WHERE Retailer = 'Walmart' AND Invoice_date = '17/10/2021';
+
+-- Deleted duplicate data
+
+-- Copy & Pasted statemnt of the table and added new coloumn called row_num
+CREATE TABLE `adidas_us_sales_messy2` (
+  `Retailer` text,
+  `Retailer_id` int DEFAULT NULL,
+  `Invoice_date` text,
+  `Region` text,
+  `State` text,
+  `City` text,
+  `Product` text,
+  `Price_per_unit` text,
+  `Units_sold` text,
+  `Total_sales` text,
+  `Operating_profit` text,
+  `Operating_margin` text,
+  `Sales_method` text,
+  `row_num` INT
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+SELECT *
+FROM adidas_us_sales_messy2
+WHERE row_num > 1;
+
+INSERT INTO adidas_us_sales_messy2
+SELECT *,
+ROW_NUMBER() OVER(
+PARTITION BY Retailer, Retailer_id, Invoice_date,Region, State, City, Product, Price_per_unit, 
+Units_sold, Total_Sales, Operating_profit, Operating_margin, Sales_Method) AS row_num
+FROM adidas_us_sales_messy;
+
+-- Delete duplicate data where row numeber greater than 1 
+DELETE
+FROM adidas_us_sales_messy2
+WHERE row_num > 1;
+
+SELECT *
+FROM adidas_us_sales_messy2
+WHERE row_num > 1;
+
+-- Standardizing the Data
+SELECT * 
+FROM adidas_us_sales_messy2;
+-- Checking each column to check if there is any white space
+SELECT DISTINCT Sales_method
+FROM adidas_us_sales_messy2;
+
+SELECT Product, TRIM(Product)
+FROM adidas_us_sales_messy2;
+
+-- The following coloumns have white space and need to updadted 
+UPDATE adidas_us_sales_messy2
+SET Retailer = TRIM(Retailer);
+
+UPDATE adidas_us_sales_messy2
+SET region = TRIM(region);
+
+UPDATE adidas_us_sales_messy2
+SET City = TRIM(City);
+
+UPDATE adidas_us_sales_messy2
+SET Product = TRIM(Product);
+
+UPDATE adidas_us_sales_messy2
+SET Sales_Method = TRIM(Sales_Method);
+
+-- Checking for any Spelling mistakes for each coloumn
+SELECT DISTINCT Sales_method
+FROM adidas_us_sales_messy2;
+
+SELECT *
+FROM adidas_us_sales_messy2
+WHERE Sales_method LIKE 'On-%';
+
+SELECT *
+FROM adidas_us_sales_messy2
+WHERE Sales_method LIKE 'Online';
+
+SELECT *
+FROM adidas_us_sales_messy2
+WHERE region LIKE 'W.%';
+
+SELECT *
+FROM adidas_us_sales_messy2
+WHERE region LIKE 'West';
+
+-- Corrected the spelling mistakes
+
+-- Sales_method
+UPDATE adidas_us_sales_messy2
+SET Sales_method = 'Online'
+WHERE Sales_method LIKE 'On%';
+
+UPDATE adidas_us_sales_messy2
+SET Sales_method = 'instore'
+WHERE Sales_method LIKE 'In%';
+
+SELECT DISTINCT Sales_method
+FROM adidas_us_sales_messy2;
+
+-- Region
+SELECT DISTINCT region
+FROM adidas_us_sales_messy2;
+
+UPDATE adidas_us_sales_messy2
+SET region = 'West'
+WHERE region LIKE 'W%';
+
+UPDATE adidas_us_sales_messy2
+SET region = 'South east'
+WHERE region LIKE 'SE';
+
+UPDATE adidas_us_sales_messy2
+SET region = 'South'
+WHERE region LIKE 'S.';
+
+UPDATE adidas_us_sales_messy2
+SET region = 'south east'
+WHERE region LIKE 'Southeast';
+
+UPDATE adidas_us_sales_messy2
+SET region = 'Mid west'
+WHERE region LIKE 'M%';
+
+UPDATE adidas_us_sales_messy2
+SET region = 'North east'
+WHERE region LIKE 'Northeast';
+
+/* COME BACK TO FIX THIS LATER
+SELECt DISTINCT Retailer_id,  Retailer, region
+FROM adidas_us_sales_messy2;
+
+SELECt DISTINCT Retailer
+FROM adidas_us_sales_messy2;*/
+
+-- Changing Invoice_date from a text coloumn to a date coloumn
+
+-- Checking each date is in the correct format
+SELECT DISTINCT Invoice_date
+FROM adidas_us_sales_messy2;
+
+-- Finding and changing incorrect formatted data 
+SELECT Invoice_date,
+STR_TO_DATE(Invoice_date, '%b %d, %Y') AS converted_date
+FROM adidas_us_sales_messy2
+WHERE Invoice_date LIKE '___ __, ____';
+-- Updated invoice_date from eg 'JAN 08, 2021' TO '08/01/2021'
+UPDATE adidas_us_sales_messy2
+SET Invoice_date = STR_TO_DATE(Invoice_date, '%b %d, %Y')
+WHERE Invoice_date LIKE '___ __, ____';
+
+SELECT DISTINCT Invoice_date
+FROM adidas_us_sales_messy2;
+
+-- NULL & Blank Values
+-- State, City
+SELECT *
+FROM adidas_us_sales_messy2
+WHERE state = '';
+
+SELECT *
+FROM adidas_us_sales_messy2
+WHERE City = '';
+
+
+
+
