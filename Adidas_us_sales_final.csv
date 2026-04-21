@@ -1,0 +1,1001 @@
+sales_id,retailer,retailer_id,invoice_date,region,state,city,product,price_per_unit,units_sold,total_sales,operating_profit,sales_method
+1,Foot Locker,1185732,06/11/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,50,278,13900,792,Online
+2,Foot Locker,1185732,14/03/2020,Northeast,New York,New York,Men's Apparel,46,278,12788,435,Outlet
+3,West Gear,1128299,19/01/2021,West,California,San Francisco,Men's Athletic Footwear,47,278,13066,287,Outlet
+4,Walmart,1128299,17/06/2021,Southeast,Florida,Orlando,Women's Apparel,103,218,22454,1257,Online
+5,Sports Direct,1197831,14/09/2021,South,Alabama,Birmingham,Women's Street Footwear,36,278,10008,530,Outlet
+6,West Gear,1197831,06/07/2021,West,Idaho,Boise,Women's Street Footwear,34,278,9452,397,Outlet
+7,West Gear,1128299,12/01/2021,West,California,San Francisco,Men's Street Footwear,56,277,15512,698,Online
+8,Foot Locker,1185732,21/01/2020,Northeast,New York,New York,Women's Street Footwear,36,276,9936,467,Online
+9,Walmart,1197831,17/08/2020,South,Texas,Houston,Women's Apparel,37,276,10212,643,Online
+10,West Gear,1128299,16/07/2021,South,Louisiana,New Orleans,Women's Apparel,103,163,16789,806,Online
+11,Sports Direct,1197831,25/08/2021,South,Alabama,Birmingham,Men's Street Footwear,10,700,7000,3150,Outlet
+12,Sports Direct,1185732,02/03/2021,Southeast,North Carolina,Charlotte,Men's Street Footwear,28,276,7728,417,Online
+13,Sports Direct,1197831,23/08/2021,South,Alabama,Birmingham,Men's Apparel,25,275,6875,2750,Outlet
+14,Sports Direct,1197831,27/08/2021,South,Alabama,Birmingham,Women's Street Footwear,15,575,8625,3881,Outlet
+15,Sports Direct,1197831,21/08/2021,South,Alabama,Birmingham,Women's Street Footwear,15,475,7125,3206,Outlet
+16,West Gear,1185732,11/01/2021,Midwest,Missouri,St. Louis,Women's Street Footwear,15,475,7125,2494,In-store
+17,Sports Direct,1185732,17/11/2021,South,Mississippi,Jackson,Men's Athletic Footwear,20,450,9000,3150,Online
+18,Sports Direct,1197831,23/01/2021,South,Mississippi,Jackson,Women's Street Footwear,15,450,6750,2700,Online
+19,West Gear,1185732,03/04/2021,Midwest,Wisconsin,Milwaukee,Men's Street Footwear,20,450,9000,2700,In-store
+20,Foot Locker,1185732,10/03/2020,Northeast,New York,New York,Men's Street Footwear,44,434,19096,993,Outlet
+21,Foot Locker,1185732,18/01/2021,Midwest,Michigan,Detroit,Women's Athletic Footwear,25,275,6875,2750,In-store
+22,Foot Locker,1185732,18/04/2021,Midwest,Missouri,St. Louis,Men's Athletic Footwear,30,275,8250,2888,In-store
+23,Foot Locker,1185732,18/04/2021,Midwest,Missouri,St. Louis,Women's Street Footwear,20,275,5500,1925,In-store
+24,Foot Locker,1185732,19/09/2021,Midwest,Missouri,St. Louis,Women's Athletic Footwear,15,275,4125,1650,In-store
+25,Foot Locker,1185732,19/09/2021,Midwest,Missouri,St. Louis,Men's Apparel,25,275,6875,2406,In-store
+26,West Gear,1185732,12/05/2021,West,Utah,Salt Lake City,Women's Athletic Footwear,25,275,6875,2750,In-store
+27,West Gear,1185732,11/10/2021,West,Utah,Salt Lake City,Women's Athletic Footwear,20,275,5500,2200,In-store
+28,West Gear,1185732,11/10/2021,West,Utah,Salt Lake City,Men's Apparel,30,275,8250,2888,In-store
+29,Foot Locker,1185732,16/03/2021,South,Mississippi,Jackson,Women's Athletic Footwear,20,275,5500,2200,Online
+30,Walmart,1197831,21/10/2021,South,Arkansas,Little Rock,Women's Athletic Footwear,20,275,5500,2200,Online
+31,Walmart,1197831,21/10/2021,South,Arkansas,Little Rock,Men's Apparel,30,275,8250,2888,Online
+32,West Gear,1197831,21/02/2021,South,Arkansas,Little Rock,Men's Athletic Footwear,25,275,6875,2406,Online
+33,West Gear,1197831,19/03/2021,South,Oklahoma,Oklahoma City,Women's Street Footwear,10,275,2750,1100,Online
+34,West Gear,1197831,19/03/2021,South,Oklahoma,Oklahoma City,Women's Apparel,25,275,6875,2750,Online
+35,West Gear,1197831,19/09/2021,South,Oklahoma,Oklahoma City,Women's Street Footwear,15,275,4125,1650,Online
+36,Foot Locker,1197831,13/11/2021,Midwest,Kansas,Wichita,Men's Athletic Footwear,15,275,4125,1444,Online
+37,Foot Locker,1185732,18/01/2021,Midwest,Michigan,Detroit,Women's Street Footwear,20,425,8500,2975,In-store
+38,West Gear,1185732,11/02/2021,Midwest,Missouri,St. Louis,Women's Street Footwear,15,425,6375,2231,In-store
+39,Foot Locker,1185732,12/01/2021,Midwest,Kansas,Wichita,Women's Street Footwear,30,275,8250,2475,Online
+40,Sports Direct,1185732,09/01/2021,Midwest,South Dakota,Sioux Falls,Women's Street Footwear,25,275,6875,2063,Online
+41,Sports Direct,1185732,09/02/2021,Midwest,North Dakota,Fargo,Women's Apparel,25,275,6875,2750,Online
+42,West Gear,1185732,11/06/2021,West,Utah,Salt Lake City,Women's Street Footwear,20,425,8500,2975,In-store
+43,Foot Locker,1185732,06/06/2021,Midwest,Iowa,Des Moines,Men's Athletic Footwear,30,275,8250,2888,In-store
+44,Amazon,1185732,10/04/2021,Midwest,Ohio,Columbus,Women's Street Footwear,20,425,8500,3400,Online
+45,Foot Locker,1185732,16/03/2021,South,Mississippi,Jackson,Women's Street Footwear,15,425,6375,2550,Online
+46,Foot Locker,1185732,07/09/2021,Midwest,Iowa,Des Moines,Men's Athletic Footwear,30,275,8250,2888,In-store
+47,West Gear,1185732,09/03/2021,Midwest,Indiana,Indianapolis,Women's Street Footwear,15,275,4125,1444,In-store
+48,Walmart,1185732,16/09/2021,South,Mississippi,Jackson,Women's Street Footwear,20,425,8500,3400,Online
+49,Walmart,1197831,21/02/2021,South,Arkansas,Little Rock,Women's Apparel,20,425,8500,3400,Online
+50,Walmart,1197831,21/10/2021,South,Arkansas,Little Rock,Men's Athletic Footwear,20,425,8500,2975,Online
+51,West Gear,1185732,09/03/2021,Midwest,Indiana,Indianapolis,Women's Apparel,25,275,6875,2750,In-store
+52,West Gear,1185732,11/09/2021,Midwest,Indiana,Indianapolis,Men's Athletic Footwear,30,275,8250,3300,In-store
+53,Walmart,1185732,03/05/2020,Northeast,New York,New York,Men's Street Footwear,48,420,20160,1129,Outlet
+54,West Gear,1185732,16/03/2021,Northeast,West Virginia,Charleston,Men's Athletic Footwear,30,275,8250,3300,In-store
+55,Walmart,1185732,19/04/2020,Northeast,New York,New York,Men's Street Footwear,39,408,15912,875,Outlet
+56,Foot Locker,1185732,15/02/2021,Northeast,Maryland,Baltimore,Women's Street Footwear,30,275,8250,3300,In-store
+57,Walmart,1185732,27/04/2020,Northeast,New York,New York,Men's Street Footwear,46,403,18538,1038,Outlet
+58,Foot Locker,1185732,13/03/2021,Northeast,Delaware,Wilmington,Women's Street Footwear,30,275,8250,3300,In-store
+59,West Gear,1185732,10/03/2021,West,Utah,Salt Lake City,Women's Street Footwear,20,400,8000,2800,In-store
+60,West Gear,1185732,11/06/2021,West,Utah,Salt Lake City,Women's Athletic Footwear,20,400,8000,3200,In-store
+61,Kohl's,1185732,10/01/2021,Northeast,Delaware,Wilmington,Women's Street Footwear,25,275,6875,2750,In-store
+62,West Gear,1185732,11/10/2021,West,Utah,Salt Lake City,Men's Athletic Footwear,20,400,8000,2800,In-store
+63,Walmart,1185732,28/04/2020,Northeast,New York,New York,Men's Athletic Footwear,53,273,14469,622,Online
+64,West Gear,1128299,06/01/2021,West,California,San Francisco,Men's Street Footwear,56,273,15288,764,Online
+65,West Gear,1185732,11/11/2021,West,Utah,Salt Lake City,Men's Athletic Footwear,20,400,8000,2800,In-store
+66,West Gear,1128299,18/01/2021,West,California,San Francisco,Men's Street Footwear,62,273,16926,779,Online
+67,West Gear,1128299,12/02/2021,West,California,San Francisco,Men's Athletic Footwear,58,273,15834,428,Online
+68,Kohl's,1189833,25/05/2021,West,California,Los Angeles,Men's Street Footwear,39,315,12285,565,Outlet
+69,Sports Direct,1197831,24/09/2021,South,Texas,Dallas,Women's Street Footwear,46,273,12558,691,Online
+70,Foot Locker,1185732,06/08/2020,West,Washington,Seattle,Men's Street Footwear,44,273,12012,661,Online
+71,Foot Locker,1185732,07/06/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,51,273,13923,780,Online
+72,Walmart,1197831,11/08/2020,South,Texas,Houston,Women's Apparel,27,272,7344,404,Outlet
+73,Walmart,1185732,16/09/2021,South,Mississippi,Jackson,Women's Athletic Footwear,20,400,8000,3200,Online
+74,Walmart,1197831,11/09/2020,South,Texas,Houston,Men's Street Footwear,31,272,8432,329,Outlet
+75,West Gear,1128299,13/11/2020,West,California,San Francisco,Men's Street Footwear,36,272,9792,382,Outlet
+76,Foot Locker,1185732,27/01/2020,Northeast,New York,New York,Women's Street Footwear,27,314,8478,348,Outlet
+77,Sports Direct,1197831,21/02/2021,South,Mississippi,Jackson,Women's Street Footwear,15,400,6000,2400,Online
+78,Foot Locker,1185732,04/03/2020,Northeast,New York,New York,Men's Street Footwear,47,400,18800,978,Outlet
+79,Foot Locker,1185732,18/03/2020,Northeast,New York,New York,Women's Street Footwear,37,314,11618,430,Outlet
+80,Foot Locker,1185732,25/01/2020,Northeast,New York,New York,Men's Street Footwear,40,390,15600,811,Outlet
+81,Sports Direct,1197831,23/04/2021,South,Tennessee,Knoxville,Women's Street Footwear,39,314,12246,576,Outlet
+82,Kohl's,1189833,26/04/2021,West,California,Los Angeles,Men's Athletic Footwear,37,272,10064,292,Outlet
+83,Foot Locker,1185732,07/01/2020,Northeast,New York,New York,Men's Street Footwear,33,388,12804,666,Outlet
+84,Kohl's,1189833,19/05/2021,West,California,Los Angeles,Men's Street Footwear,40,272,10880,500,Outlet
+85,Foot Locker,1185732,01/01/2020,Northeast,New York,New York,Men's Street Footwear,34,384,13056,679,Outlet
+86,Sports Direct,1197831,21/09/2021,South,Texas,Dallas,Women's Apparel,47,272,12784,729,Outlet
+87,Sports Direct,1197831,15/04/2021,South,Tennessee,Knoxville,Men's Street Footwear,29,272,7888,394,Outlet
+88,Foot Locker,1185732,07/02/2021,Southeast,Georgia,Atlanta,Men's Street Footwear,31,376,11656,559,Outlet
+89,Sports Direct,1197831,20/04/2021,South,Tennessee,Knoxville,Women's Apparel,38,272,10336,641,Outlet
+90,Foot Locker,1185732,07/01/2020,Northeast,New York,New York,Men's Street Footwear,46,313,14398,893,Online
+91,Walmart,1128299,17/06/2021,Southeast,Florida,Orlando,Men's Street Footwear,50,272,13600,435,Outlet
+92,Sports Direct,1197831,22/08/2021,South,Alabama,Birmingham,Women's Athletic Footwear,20,375,7500,4125,Outlet
+93,Foot Locker,1185732,04/03/2020,Northeast,New York,New York,Men's Street Footwear,55,313,17215,1050,Online
+94,Foot Locker,1185732,18/02/2021,Midwest,Michigan,Detroit,Women's Street Footwear,20,375,7500,2625,In-store
+95,Walmart,1185732,03/05/2020,Northeast,New York,New York,Men's Street Footwear,62,312,19344,1238,Online
+96,West Gear,1185732,11/08/2021,West,Utah,Salt Lake City,Women's Athletic Footwear,20,375,7500,3000,In-store
+97,Walmart,1128299,17/08/2021,Southeast,Florida,Orlando,Men's Athletic Footwear,60,272,16320,441,Outlet
+98,Foot Locker,1185732,07/02/2021,Southeast,Georgia,Atlanta,Men's Street Footwear,38,312,11856,700,Online
+99,West Gear,1185732,11/11/2021,West,Utah,Salt Lake City,Women's Athletic Footwear,20,375,7500,3000,In-store
+100,West Gear,1185732,12/01/2021,Southeast,Florida,Orlando,Men's Street Footwear,30,272,8160,416,Outlet
+101,Foot Locker,1185732,17/04/2021,South,Mississippi,Jackson,Women's Street Footwear,15,375,5625,2250,Online
+102,Foot Locker,1128299,23/07/2021,Southeast,Virginia,Richmond,Men's Street Footwear,60,272,16320,604,Outlet
+103,Walmart,1185732,28/04/2020,Northeast,New York,New York,Men's Athletic Footwear,40,312,12480,449,Outlet
+104,Foot Locker,1128299,24/08/2021,Southeast,Virginia,Richmond,Men's Street Footwear,67,272,18224,729,Outlet
+105,Foot Locker,1185732,05/07/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,63,311,19593,1156,Online
+106,West Gear,1128299,16/12/2021,South,Louisiana,New Orleans,Men's Street Footwear,46,272,12512,576,Outlet
+107,West Gear,1197831,20/11/2021,South,Arkansas,Little Rock,Men's Athletic Footwear,15,375,5625,1969,Online
+108,West Gear,1128299,03/11/2020,South,Texas,Houston,Women's Street Footwear,33,271,8943,376,Outlet
+109,West Gear,1197831,23/01/2021,South,Arkansas,Little Rock,Women's Street Footwear,15,375,5625,2250,Online
+110,Foot Locker,1185732,16/03/2020,Northeast,New York,New York,Men's Street Footwear,41,375,15375,800,Outlet
+111,Walmart,1197831,26/08/2020,South,Texas,Houston,Women's Street Footwear,29,374,10846,445,Outlet
+112,West Gear,1128299,25/12/2020,West,California,San Francisco,Men's Street Footwear,40,271,10840,412,Outlet
+113,Walmart,1197831,01/09/2020,South,Texas,Houston,Women's Street Footwear,29,374,10846,445,Outlet
+114,West Gear,1128299,14/02/2021,West,California,San Francisco,Women's Athletic Footwear,40,271,10840,325,Outlet
+115,Foot Locker,1185732,31/01/2020,Northeast,New York,New York,Men's Street Footwear,33,372,12276,663,Outlet
+116,Sports Direct,1197831,08/04/2021,South,Tennessee,Knoxville,Women's Apparel,31,271,8401,496,Outlet
+117,Sports Direct,1197831,22/04/2021,South,Tennessee,Knoxville,Men's Athletic Footwear,44,271,11924,608,Outlet
+118,West Gear,1197831,06/07/2021,West,Idaho,Boise,Men's Athletic Footwear,40,271,10840,466,Outlet
+119,Foot Locker,1185732,06/02/2020,Northeast,New York,New York,Men's Street Footwear,44,366,16104,837,Outlet
+120,Walmart,1185732,19/04/2020,Northeast,New York,New York,Men's Street Footwear,56,360,20160,1250,Online
+121,Foot Locker,1185732,17/03/2020,Northeast,New York,New York,Men's Athletic Footwear,37,359,13283,452,Outlet
+122,Walmart,1185732,18/04/2020,Northeast,New York,New York,Women's Apparel,48,355,17040,511,Outlet
+123,Foot Locker,1185732,25/01/2020,Northeast,New York,New York,Men's Street Footwear,46,354,16284,1026,Online
+124,Foot Locker,1185732,15/03/2020,Northeast,New York,New York,Women's Apparel,47,352,16544,447,Outlet
+125,Foot Locker,1185732,17/03/2021,Midwest,Missouri,St. Louis,Women's Street Footwear,25,350,8750,3063,In-store
+126,Foot Locker,1185732,18/06/2021,Midwest,Missouri,St. Louis,Women's Athletic Footwear,25,350,8750,3500,In-store
+127,Foot Locker,1185732,18/10/2021,Midwest,Missouri,St. Louis,Men's Athletic Footwear,25,350,8750,3063,In-store
+128,Foot Locker,1185732,18/11/2021,Midwest,Missouri,St. Louis,Men's Athletic Footwear,25,350,8750,3063,In-store
+129,West Gear,1185732,12/05/2021,West,Utah,Salt Lake City,Women's Street Footwear,25,350,8750,3063,In-store
+130,West Gear,1185732,12/09/2021,West,Utah,Salt Lake City,Women's Street Footwear,10,350,3500,1225,In-store
+131,Amazon,1185732,10/04/2021,Midwest,Ohio,Columbus,Women's Athletic Footwear,25,350,8750,3500,Online
+132,Walmart,1185732,18/10/2021,South,Mississippi,Jackson,Women's Athletic Footwear,25,350,8750,3500,Online
+133,Sports Direct,1197831,21/02/2021,South,Mississippi,Jackson,Men's Athletic Footwear,25,350,8750,3063,Online
+134,Walmart,1197831,19/03/2021,South,Arkansas,Little Rock,Women's Street Footwear,10,350,3500,1400,Online
+135,Walmart,1197831,19/03/2021,South,Arkansas,Little Rock,Women's Apparel,25,350,8750,3500,Online
+136,Walmart,1197831,19/09/2021,South,Arkansas,Little Rock,Women's Street Footwear,15,350,5250,2100,Online
+137,West Gear,1197831,21/02/2021,South,Oklahoma,Oklahoma City,Women's Apparel,20,350,7000,2800,Online
+138,Walmart,1197831,19/07/2021,South,Arkansas,Little Rock,Men's Street Footwear,39,271,10569,444,Outlet
+139,West Gear,1197831,21/10/2021,South,Oklahoma,Oklahoma City,Men's Athletic Footwear,20,350,7000,2450,Online
+140,Kohl's,1197831,16/01/2021,South,Oklahoma,Oklahoma City,Men's Athletic Footwear,25,350,8750,3063,Online
+141,Foot Locker,1185732,05/03/2020,Northeast,New York,New York,Men's Athletic Footwear,54,270,14580,598,Online
+142,Kohl's,1197831,16/01/2021,South,Oklahoma,Oklahoma City,Women's Street Footwear,15,350,5250,1838,Online
+143,Walmart,1185732,17/04/2020,Northeast,New York,New York,Men's Apparel,54,270,14580,656,Online
+144,Walmart,1185732,20/04/2020,Northeast,New York,New York,Men's Athletic Footwear,50,270,13500,594,Online
+145,Walmart,1185732,04/05/2020,Northeast,New York,New York,Men's Athletic Footwear,43,310,13330,467,Outlet
+146,Kohl's,1189833,19/04/2021,West,California,Los Angeles,Men's Street Footwear,44,270,11880,653,Online
+147,Foot Locker,1185732,17/03/2020,Northeast,New York,New York,Men's Athletic Footwear,53,308,16324,669,Online
+148,Sports Direct,1185732,29/09/2020,Southeast,Florida,Miami,Men's Street Footwear,56,270,15120,907,Online
+149,Sports Direct,1185732,03/08/2021,Southeast,North Carolina,Charlotte,Men's Street Footwear,61,308,18788,996,Online
+150,Foot Locker,1185732,05/01/2020,Northeast,New York,New York,Men's Apparel,43,306,13158,487,Outlet
+151,West Gear,1128299,16/07/2021,South,Louisiana,New Orleans,Men's Street Footwear,86,270,23220,1231,Online
+152,Foot Locker,1185732,23/01/2020,Northeast,New York,New York,Men's Apparel,43,306,13158,461,Outlet
+153,Foot Locker,1185732,05/07/2021,Southeast,South Carolina,Charleston,Men's Athletic Footwear,58,270,15660,767,Online
+154,Walmart,1185732,22/04/2020,Northeast,New York,New York,Women's Athletic Footwear,34,306,10404,406,Outlet
+155,Foot Locker,1185732,13/03/2020,Northeast,New York,New York,Women's Athletic Footwear,35,270,9450,350,Outlet
+156,Walmart,1185732,06/05/2020,Northeast,New York,New York,Women's Athletic Footwear,41,306,12546,502,Outlet
+157,Walmart,1185732,30/04/2020,Northeast,New York,New York,Women's Athletic Footwear,41,270,11070,410,Outlet
+158,Sports Direct,1197831,31/07/2020,South,Texas,Houston,Men's Street Footwear,20,306,6120,257,Outlet
+159,Sports Direct,1197831,19/07/2020,Northeast,New York,New York,Men's Street Footwear,20,270,5400,211,Outlet
+160,Sports Direct,1197831,06/08/2020,South,Texas,Houston,Men's Street Footwear,23,306,7038,260,Outlet
+161,Sports Direct,1197831,20/07/2020,Northeast,New York,New York,Men's Athletic Footwear,26,270,7020,260,Outlet
+162,Sports Direct,1197831,07/08/2020,South,Texas,Houston,Men's Athletic Footwear,29,306,8874,364,Outlet
+163,Walmart,1197831,04/09/2020,South,Texas,Houston,Women's Apparel,39,270,10530,569,Outlet
+164,Walmart,1197831,21/10/2020,South,Texas,Houston,Men's Athletic Footwear,31,306,9486,379,Outlet
+165,Walmart,1197831,20/10/2020,South,Texas,Houston,Men's Street Footwear,34,270,9180,349,Outlet
+166,Walmart,1197831,31/10/2020,South,Texas,Houston,Women's Apparel,41,306,12546,690,Outlet
+167,West Gear,1128299,31/12/2020,West,California,San Francisco,Men's Street Footwear,44,270,11880,523,Outlet
+168,West Gear,1128299,11/01/2021,West,California,San Francisco,Women's Apparel,60,306,18360,477,Outlet
+169,Walmart,1185732,21/04/2020,Northeast,New York,New York,Women's Street Footwear,47,268,12596,592,Online
+170,West Gear,1128299,06/02/2021,West,California,San Francisco,Men's Athletic Footwear,46,306,14076,282,Outlet
+171,Walmart,1197831,12/08/2020,South,Texas,Houston,Men's Street Footwear,29,268,7772,373,Online
+172,Walmart,1197831,30/08/2020,South,Texas,Houston,Men's Street Footwear,37,268,9916,486,Online
+173,Kohl's,1189833,01/05/2021,West,California,Los Angeles,Men's Street Footwear,36,306,11016,496,Outlet
+174,West Gear,1128299,25/01/2021,West,California,San Francisco,Men's Athletic Footwear,56,268,15008,420,Online
+175,Sports Direct,1197831,14/04/2021,South,Tennessee,Knoxville,Women's Apparel,37,306,11322,668,Outlet
+176,Kohl's,1197831,16/01/2021,South,Oklahoma,Oklahoma City,Women's Apparel,25,350,8750,3063,Online
+177,Foot Locker,1185732,18/08/2020,Southeast,Florida,Miami,Men's Street Footwear,41,268,10988,659,Online
+178,West Gear,1185732,17/02/2021,Northeast,West Virginia,Charleston,Women's Apparel,25,350,8750,3500,In-store
+179,West Gear,1128299,16/07/2021,South,Louisiana,New Orleans,Men's Street Footwear,62,306,18972,816,Outlet
+180,Sports Direct,1197831,14/09/2021,South,Alabama,Birmingham,Women's Street Footwear,51,268,13668,820,Online
+181,West Gear,1185732,08/05/2021,Northeast,New York,Albany,Men's Street Footwear,50,261,13050,783,Online
+182,Foot Locker,1185732,09/03/2020,Northeast,New York,New York,Women's Apparel,64,305,19520,761,Online
+183,Foot Locker,1185732,11/03/2020,Northeast,New York,New York,Men's Athletic Footwear,53,267,14151,594,Online
+184,Foot Locker,1185732,03/01/2020,Northeast,New York,New York,Women's Street Footwear,32,350,11200,414,Outlet
+185,Walmart,1197831,30/08/2020,South,Texas,Houston,Men's Street Footwear,27,305,8235,305,Outlet
+186,Foot Locker,1185732,24/01/2020,Northeast,New York,New York,Women's Apparel,36,350,12600,365,Outlet
+187,Walmart,1197831,31/08/2020,South,Texas,Houston,Men's Athletic Footwear,33,305,10065,382,Outlet
+188,Foot Locker,1185732,05/03/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,33,265,8745,507,Online
+189,Foot Locker,1197831,08/08/2021,West,Idaho,Boise,Women's Street Footwear,39,305,11895,511,Outlet
+190,Walmart,1197831,20/08/2020,South,Texas,Houston,Women's Street Footwear,27,264,7128,285,Outlet
+191,Walmart,1197831,05/09/2020,South,Texas,Houston,Men's Street Footwear,33,264,8712,366,Outlet
+192,West Gear,1185732,17/09/2020,Southeast,Florida,Miami,Men's Street Footwear,60,304,18240,1040,Online
+193,West Gear,1128299,01/11/2020,South,Texas,Houston,Men's Street Footwear,30,264,7920,309,Outlet
+194,Walmart,1197831,29/08/2020,South,Texas,Houston,Women's Apparel,36,302,10872,565,Outlet
+195,West Gear,1128299,14/01/2021,West,California,San Francisco,Women's Street Footwear,46,264,12144,486,Outlet
+196,Foot Locker,1185732,02/01/2020,Northeast,New York,New York,Men's Athletic Footwear,47,260,12220,513,Online
+197,West Gear,1128299,18/01/2021,West,California,San Francisco,Men's Street Footwear,45,302,13590,544,Outlet
+198,Sports Direct,1197831,01/04/2021,South,Tennessee,Knoxville,Men's Apparel,30,300,9000,3150,Outlet
+199,Foot Locker,1185732,06/01/2020,Northeast,New York,New York,Women's Apparel,46,260,11960,443,Online
+200,West Gear,1128299,17/01/2021,West,California,San Francisco,Women's Apparel,56,264,14784,281,Outlet
+201,Foot Locker,1185732,26/01/2020,Northeast,New York,New York,Men's Athletic Footwear,48,259,12432,535,Online
+202,Sports Direct,1197831,28/09/2021,South,Alabama,Birmingham,Men's Apparel,30,300,9000,4050,Outlet
+203,Foot Locker,1185732,19/05/2021,Midwest,Missouri,St. Louis,Women's Street Footwear,30,300,9000,3150,In-store
+204,Foot Locker,1185732,07/02/2020,Northeast,New York,New York,Men's Athletic Footwear,50,259,12950,518,Online
+205,Walmart,1185732,20/04/2020,Northeast,New York,New York,Men's Athletic Footwear,43,350,15050,497,Outlet
+206,West Gear,1128299,29/01/2021,West,California,San Francisco,Women's Apparel,51,264,13464,202,Outlet
+207,Foot Locker,1185732,19/09/2021,Midwest,Missouri,St. Louis,Women's Street Footwear,15,300,4500,1575,In-store
+208,Walmart,1185732,24/04/2020,Northeast,New York,New York,Women's Apparel,45,350,15750,473,Outlet
+209,West Gear,1185732,11/02/2021,West,Utah,Salt Lake City,Women's Athletic Footwear,20,300,6000,2400,In-store
+210,Kohl's,1189833,19/03/2021,West,California,Los Angeles,Men's Street Footwear,24,264,6336,279,Outlet
+211,Walmart,1197831,23/08/2020,South,Texas,Houston,Women's Apparel,38,350,13300,758,Outlet
+212,Kohl's,1189833,24/04/2021,West,California,Los Angeles,Women's Apparel,48,264,12672,279,Outlet
+213,Foot Locker,1185732,09/01/2021,Southeast,Georgia,Atlanta,Men's Street Footwear,26,349,9074,426,Outlet
+214,Walmart,1197831,13/08/2020,South,Texas,Houston,Men's Athletic Footwear,38,259,9842,453,Online
+215,Kohl's,1189833,02/05/2021,West,California,Los Angeles,Men's Athletic Footwear,41,264,10824,336,Outlet
+216,Foot Locker,1185732,09/03/2020,Northeast,New York,New York,Women's Apparel,46,347,15962,511,Outlet
+217,Kohl's,1189833,08/05/2021,West,California,Los Angeles,Men's Athletic Footwear,39,264,10296,278,Outlet
+218,West Gear,1185732,11/11/2021,West,Utah,Salt Lake City,Women's Street Footwear,20,345,6900,2415,In-store
+219,West Gear,1128299,06/01/2021,West,California,San Francisco,Men's Street Footwear,41,341,13981,601,Outlet
+220,Kohl's,1189833,14/05/2021,West,California,Los Angeles,Men's Athletic Footwear,43,264,11352,341,Outlet
+221,Foot Locker,1185732,05/03/2020,Northeast,New York,New York,Men's Athletic Footwear,41,340,13940,474,Outlet
+222,Kohl's,1189833,20/05/2021,West,California,Los Angeles,Men's Athletic Footwear,42,264,11088,333,Outlet
+223,Walmart,1185732,18/07/2020,Northeast,New York,New York,Women's Apparel,48,340,16320,490,Outlet
+224,Sports Direct,1197831,09/09/2021,South,Texas,Dallas,Women's Apparel,34,264,8976,467,Outlet
+225,Walmart,1197831,31/08/2020,South,Texas,Houston,Men's Athletic Footwear,41,259,10619,478,Online
+226,West Gear,1128299,12/01/2021,West,California,San Francisco,Men's Street Footwear,41,338,13858,527,Outlet
+227,Sports Direct,1197831,17/09/2021,South,Texas,Dallas,Men's Athletic Footwear,34,264,8976,377,Outlet
+228,West Gear,1128299,19/01/2021,West,California,San Francisco,Men's Athletic Footwear,66,259,17094,513,Online
+229,Foot Locker,1185732,01/01/2020,Northeast,New York,New York,Men's Street Footwear,47,336,15792,963,Online
+230,Sports Direct,1197831,16/04/2021,South,Tennessee,Knoxville,Men's Athletic Footwear,30,264,7920,396,Outlet
+231,Foot Locker,1185732,05/02/2020,Northeast,New York,New York,Women's Apparel,39,333,12987,351,Outlet
+232,West Gear,1185732,10/09/2020,Southeast,Florida,Miami,Women's Apparel,63,259,16317,1061,Online
+233,Walmart,1185732,29/04/2020,Northeast,New York,New York,Women's Street Footwear,52,258,13416,644,Online
+234,Sports Direct,1197831,16/05/2021,South,Tennessee,Knoxville,Men's Athletic Footwear,37,264,9768,479,Outlet
+235,Walmart,1185732,05/05/2020,Northeast,New York,New York,Women's Street Footwear,42,333,13986,559,Outlet
+236,Sports Direct,1197831,07/09/2021,South,Alabama,Birmingham,Men's Athletic Footwear,37,264,9768,537,Outlet
+237,Walmart,1197831,26/10/2020,South,Texas,Houston,Men's Street Footwear,32,333,10656,426,Outlet
+238,West Gear,1197831,06/07/2021,West,Idaho,Boise,Men's Street Footwear,35,264,9240,425,Outlet
+239,Walmart,1197831,27/10/2020,South,Texas,Houston,Men's Athletic Footwear,34,333,11322,476,Outlet
+240,Foot Locker,1197831,06/07/2021,West,Idaho,Boise,Women's Apparel,51,264,13464,794,Outlet
+241,West Gear,1128299,12/02/2021,West,California,San Francisco,Men's Athletic Footwear,46,332,15272,321,Outlet
+242,Foot Locker,1185732,09/01/2021,Southeast,Georgia,Atlanta,Women's Street Footwear,24,264,6336,203,Outlet
+243,Sports Direct,1197831,24/09/2021,South,Texas,Dallas,Women's Street Footwear,35,332,11620,546,Outlet
+244,Walmart,1185732,02/05/2020,Northeast,New York,New York,Women's Apparel,66,263,17358,642,Online
+245,West Gear,1185732,11/10/2021,West,Utah,Salt Lake City,Women's Street Footwear,20,300,6000,2100,In-store
+246,Foot Locker,1185732,06/01/2020,Northeast,New York,New York,Women's Apparel,38,330,12540,401,Outlet
+247,Amazon,1185732,22/01/2021,Midwest,Ohio,Columbus,Women's Street Footwear,30,300,9000,3600,Online
+248,Foot Locker,1185732,17/04/2021,South,Mississippi,Jackson,Women's Athletic Footwear,20,300,6000,2400,Online
+249,West Gear,1128299,05/02/2021,West,California,San Francisco,Men's Street Footwear,52,263,13676,602,Online
+250,Sports Direct,1197831,23/01/2021,South,Mississippi,Jackson,Women's Athletic Footwear,20,300,6000,2400,Online
+251,Walmart,1185732,26/04/2020,Northeast,New York,New York,Women's Apparel,50,330,16500,462,Outlet
+252,Sports Direct,1197831,15/09/2021,South,Texas,Dallas,Women's Apparel,53,263,13939,878,Online
+253,Foot Locker,1185732,06/08/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,62,326,20212,1152,Online
+254,Sports Direct,1197831,17/04/2021,South,Tennessee,Knoxville,Women's Street Footwear,36,263,9468,568,Online
+255,Foot Locker,1185732,18/08/2021,Midwest,Missouri,St. Louis,Women's Athletic Footwear,25,325,8125,3250,In-store
+256,West Gear,1185732,10/06/2021,Northeast,New York,Albany,Men's Street Footwear,59,263,15517,869,Online
+257,Foot Locker,1185732,18/11/2021,Midwest,Missouri,St. Louis,Women's Athletic Footwear,25,325,8125,3250,In-store
+258,Sports Direct,1185732,16/08/2021,Midwest,Michigan,Detroit,Men's Street Footwear,55,263,14465,926,Online
+259,Walmart,1197831,20/04/2021,South,Arkansas,Little Rock,Men's Athletic Footwear,25,300,7500,2625,Online
+260,West Gear,1185732,11/01/2021,Midwest,Missouri,St. Louis,Women's Athletic Footwear,20,325,6500,2600,In-store
+261,Walmart,1197831,20/04/2021,South,Arkansas,Little Rock,Women's Street Footwear,15,300,4500,1800,Online
+262,Walmart,1197831,21/10/2021,South,Arkansas,Little Rock,Women's Street Footwear,20,300,6000,2400,Online
+263,Kohl's,1197831,20/11/2021,South,Oklahoma,Oklahoma City,Men's Athletic Footwear,15,300,4500,1575,Online
+264,Sports Direct,1185732,04/02/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,34,263,8942,447,Online
+265,Kohl's,1197831,14/02/2021,South,Oklahoma,Oklahoma City,Women's Street Footwear,15,300,4500,1575,Online
+266,West Gear,1185732,11/04/2021,West,Utah,Salt Lake City,Men's Athletic Footwear,25,325,8125,2844,In-store
+267,Sports Direct,1185732,03/04/2021,Southeast,North Carolina,Charlotte,Men's Street Footwear,27,263,7101,383,Online
+268,West Gear,1185732,11/04/2021,West,Utah,Salt Lake City,Women's Street Footwear,15,325,4875,1706,In-store
+269,Sports Direct,1185732,02/07/2021,Southeast,North Carolina,Charlotte,Women's Apparel,64,263,16832,1060,Online
+270,Kohl's,1197831,13/04/2021,Midwest,Kansas,Wichita,Women's Apparel,30,300,9000,3150,Online
+271,West Gear,1185732,12/09/2021,West,Utah,Salt Lake City,Women's Athletic Footwear,10,325,3250,1300,In-store
+272,Foot Locker,1185732,18/03/2020,Northeast,New York,New York,Women's Street Footwear,45,257,11565,532,Online
+273,Sports Direct,1197831,01/08/2020,South,Texas,Houston,Men's Athletic Footwear,30,263,7890,308,Outlet
+274,West Gear,1185732,12/09/2021,West,Utah,Salt Lake City,Men's Apparel,20,325,6500,2275,In-store
+275,Walmart,1197831,21/08/2020,South,Texas,Houston,Women's Athletic Footwear,26,263,6838,328,Outlet
+276,Amazon,1185732,09/03/2021,Midwest,Ohio,Columbus,Women's Athletic Footwear,25,325,8125,3250,Online
+277,Foot Locker,1197831,14/10/2021,Midwest,Kansas,Wichita,Women's Apparel,30,300,9000,3150,Online
+278,West Gear,1128299,13/01/2021,West,California,San Francisco,Men's Athletic Footwear,49,263,12887,309,Outlet
+279,Foot Locker,1185732,18/02/2021,South,Mississippi,Jackson,Women's Athletic Footwear,25,325,8125,3250,Online
+280,West Gear,1185732,03/06/2021,Midwest,Wisconsin,Milwaukee,Men's Athletic Footwear,30,300,9000,3150,In-store
+281,West Gear,1185732,10/01/2021,Midwest,Wisconsin,Milwaukee,Women's Street Footwear,25,300,7500,2625,In-store
+282,West Gear,1185732,10/02/2021,Midwest,Indiana,Indianapolis,Women's Apparel,20,300,6000,2400,In-store
+283,West Gear,1185732,17/01/2021,Midwest,Indiana,Indianapolis,Women's Street Footwear,25,300,7500,3000,In-store
+284,Walmart,1197831,19/03/2021,South,Arkansas,Little Rock,Men's Athletic Footwear,20,325,6500,2275,Online
+285,Walmart,1197831,19/09/2021,South,Arkansas,Little Rock,Women's Athletic Footwear,15,325,4875,1950,Online
+286,West Gear,1185732,17/02/2021,Midwest,Indiana,Indianapolis,Women's Street Footwear,30,300,9000,3600,In-store
+287,Walmart,1197831,19/09/2021,South,Arkansas,Little Rock,Men's Apparel,25,325,8125,2844,Online
+288,West Gear,1197831,21/02/2021,South,Arkansas,Little Rock,Women's Street Footwear,15,325,4875,1950,Online
+289,Kohl's,1197831,14/02/2021,Midwest,Kansas,Wichita,Women's Apparel,20,325,6500,2275,Online
+290,Sports Direct,1185732,07/01/2021,Northeast,New Jersey,Newark,Women's Street Footwear,30,300,9000,2700,In-store
+291,Foot Locker,1185732,31/01/2020,Northeast,New York,New York,Men's Street Footwear,45,300,13500,837,Online
+292,Walmart,1185732,04/05/2020,Northeast,New York,New York,Men's Athletic Footwear,51,300,15300,643,Online
+293,Foot Locker,1185732,24/04/2020,Southeast,Florida,Miami,Men's Street Footwear,42,256,10752,624,Online
+294,Kohl's,1197831,14/10/2021,Midwest,Kansas,Wichita,Men's Athletic Footwear,20,325,6500,2275,Online
+295,West Gear,1185732,24/04/2020,Southeast,Florida,Miami,Men's Street Footwear,52,300,15600,874,Online
+296,West Gear,1185732,16/03/2021,Northeast,West Virginia,Charleston,Women's Street Footwear,20,325,6500,2600,In-store
+297,Walmart,1185732,27/04/2020,Northeast,New York,New York,Men's Street Footwear,60,299,17940,1076,Online
+298,Foot Locker,1185732,09/01/2021,Southeast,Georgia,Atlanta,Men's Street Footwear,39,256,9984,579,Online
+299,Foot Locker,1185732,16/03/2020,Northeast,New York,New York,Men's Street Footwear,58,325,18850,1150,Online
+300,West Gear,1185732,11/09/2020,Southeast,Florida,Miami,Men's Street Footwear,60,299,17940,1076,Online
+301,West Gear,1128299,07/01/2021,West,California,San Francisco,Men's Athletic Footwear,50,256,12800,384,Outlet
+302,Foot Locker,1185732,31/03/2020,Northeast,New York,New York,Women's Athletic Footwear,40,324,12960,518,Outlet
+303,West Gear,1128299,10/02/2021,West,California,San Francisco,Women's Apparel,56,256,14336,215,Outlet
+304,Sports Direct,1185732,24/05/2020,Southeast,Florida,Miami,Men's Street Footwear,63,323,20349,1140,Online
+305,Foot Locker,1185732,21/01/2020,Northeast,New York,New York,Women's Street Footwear,32,323,10336,393,Outlet
+306,Walmart,1197831,10/09/2020,South,Texas,Houston,Women's Apparel,42,298,12516,713,Outlet
+307,West Gear,1128299,13/02/2021,West,California,San Francisco,Women's Street Footwear,44,256,11264,372,Outlet
+308,Walmart,1197831,28/10/2020,South,Texas,Houston,Women's Street Footwear,38,298,11324,430,Outlet
+309,West Gear,1128299,16/02/2021,West,California,San Francisco,Women's Apparel,50,256,12800,218,Outlet
+310,West Gear,1128299,23/07/2021,West,Oregon,Portland,Men's Street Footwear,60,298,17880,751,Outlet
+311,Foot Locker,1185732,30/01/2020,Northeast,New York,New York,Women's Apparel,36,323,11628,314,Outlet
+312,Kohl's,1189833,13/05/2021,West,California,Los Angeles,Men's Street Footwear,36,256,9216,433,Outlet
+313,Walmart,1197831,01/09/2020,South,Texas,Houston,Women's Street Footwear,39,297,11583,533,Online
+314,Walmart,1197831,19/08/2020,South,Texas,Houston,Men's Athletic Footwear,33,323,10659,448,Outlet
+315,Sports Direct,1197831,10/09/2021,South,Texas,Dallas,Men's Street Footwear,30,256,7680,284,Outlet
+316,Walmart,1185732,02/05/2020,Northeast,New York,New York,Women's Apparel,53,322,17066,478,Outlet
+317,Sports Direct,1197831,16/09/2021,South,Texas,Dallas,Men's Street Footwear,34,256,8704,366,Outlet
+318,West Gear,1128299,11/02/2021,West,California,San Francisco,Men's Street Footwear,40,322,12880,425,Outlet
+319,West Gear,1128299,22/01/2021,West,California,San Francisco,Men's Apparel,59,263,15517,884,Outlet
+320,Sports Direct,1197831,23/09/2021,South,Texas,Dallas,Men's Athletic Footwear,43,256,11008,506,Outlet
+321,Sports Direct,1197831,18/09/2021,South,Texas,Dallas,Women's Street Footwear,33,322,10626,446,Outlet
+322,West Gear,1128299,05/02/2021,West,California,San Francisco,Men's Street Footwear,39,263,10257,359,Outlet
+323,Sports Direct,1197831,30/08/2021,South,Alabama,Birmingham,Women's Apparel,36,263,9468,625,Outlet
+324,Walmart,1128299,16/07/2021,Southeast,Florida,Orlando,Men's Athletic Footwear,74,263,19462,545,Outlet
+325,Sports Direct,1197831,21/10/2021,South,Texas,Dallas,Women's Apparel,54,256,13824,829,Outlet
+326,Sports Direct,1197831,17/04/2021,South,Tennessee,Knoxville,Women's Street Footwear,30,322,9660,483,Outlet
+327,West Gear,1197831,04/06/2021,West,Idaho,Boise,Men's Athletic Footwear,35,263,9205,377,Outlet
+328,Sports Direct,1197831,09/04/2021,South,Tennessee,Knoxville,Men's Street Footwear,28,256,7168,337,Outlet
+329,Sports Direct,1197831,08/09/2021,South,Alabama,Birmingham,Women's Street Footwear,31,322,9982,559,Outlet
+330,Sports Direct,1197831,06/09/2021,South,Alabama,Birmingham,Men's Street Footwear,31,256,7936,421,Outlet
+331,West Gear,1197831,20/11/2021,South,Arkansas,Little Rock,Women's Street Footwear,25,320,8000,3200,Online
+332,Foot Locker,1185732,18/06/2021,South,Mississippi,Jackson,Men's Street Footwear,31,263,8153,359,Outlet
+333,Foot Locker,1185732,02/01/2020,Northeast,New York,New York,Men's Athletic Footwear,36,320,11520,403,Outlet
+334,Walmart,1128299,16/12/2021,Southeast,Florida,Orlando,Men's Athletic Footwear,55,256,14080,436,Outlet
+335,Foot Locker,1185732,03/03/2020,Northeast,New York,New York,Women's Apparel,44,320,14080,408,Outlet
+336,Foot Locker,1185732,08/01/2020,Northeast,New York,New York,Men's Athletic Footwear,46,261,12006,528,Online
+337,Foot Locker,1185732,10/03/2020,Northeast,New York,New York,Men's Street Footwear,59,319,18821,1129,Online
+338,Foot Locker,1185732,08/02/2020,Northeast,New York,New York,Women's Street Footwear,46,261,12006,564,Online
+339,Foot Locker,1185732,07/03/2020,Northeast,New York,New York,Women's Athletic Footwear,47,261,12267,552,Online
+340,Walmart,1185732,07/05/2020,Northeast,New York,New York,Men's Apparel,60,261,15660,673,Online
+341,Walmart,1197831,26/08/2020,South,Texas,Houston,Women's Street Footwear,37,319,11803,531,Online
+342,Walmart,1197831,31/10/2020,South,Texas,Houston,Women's Apparel,53,261,13833,858,Online
+343,Foot Locker,1185732,12/08/2020,Southeast,Florida,Miami,Men's Street Footwear,43,319,13717,782,Online
+344,Walmart,1128299,16/07/2021,Southeast,Florida,Orlando,Men's Street Footwear,83,261,21663,953,Online
+345,Sports Direct,1185732,17/02/2021,Southeast,Virginia,Richmond,Men's Street Footwear,26,256,6656,366,Outlet
+346,West Gear,1128299,24/08/2021,West,Oregon,Portland,Men's Street Footwear,69,256,17664,654,Outlet
+347,West Gear,1128299,24/08/2021,West,Oregon,Portland,Men's Athletic Footwear,62,256,15872,667,Outlet
+348,West Gear,1128299,17/06/2021,South,Louisiana,New Orleans,Men's Street Footwear,47,256,12032,566,Outlet
+349,Foot Locker,1185732,07/03/2020,Northeast,New York,New York,Women's Athletic Footwear,38,297,11286,429,Outlet
+350,West Gear,1128299,17/08/2021,South,Louisiana,New Orleans,Men's Athletic Footwear,57,256,14592,642,Outlet
+351,Kohl's,1189833,19/04/2021,West,California,Los Angeles,Men's Street Footwear,36,297,10692,470,Outlet
+352,Foot Locker,1185732,09/01/2021,Southeast,Georgia,Atlanta,Men's Athletic Footwear,30,256,7680,307,Outlet
+353,Walmart,1185732,17/08/2021,South,Mississippi,Jackson,Men's Street Footwear,41,256,10496,472,Outlet
+354,Walmart,1128299,16/07/2021,Southeast,Florida,Orlando,Men's Street Footwear,68,297,20196,747,Outlet
+355,Foot Locker,1185732,07/02/2020,Northeast,New York,New York,Men's Athletic Footwear,37,296,10952,383,Outlet
+356,Foot Locker,1185732,06/03/2020,Northeast,New York,New York,Women's Street Footwear,37,296,10952,449,Outlet
+357,Sports Direct,1185732,16/12/2021,South,Mississippi,Jackson,Men's Street Footwear,48,256,12288,578,Outlet
+358,Kohl's,1189833,07/04/2021,West,California,Los Angeles,Men's Street Footwear,31,248,7688,354,Outlet
+359,Sports Direct,1197831,26/07/2020,South,Texas,Houston,Men's Athletic Footwear,33,255,8415,379,Online
+360,Foot Locker,1185732,18/11/2021,Midwest,Missouri,St. Louis,Women's Street Footwear,25,295,7375,2581,In-store
+361,Walmart,1197831,05/09/2020,South,Texas,Houston,Men's Street Footwear,44,255,11220,539,Online
+362,Sports Direct,1197831,05/09/2021,South,Texas,Dallas,Men's Athletic Footwear,22,248,5456,229,Outlet
+363,Walmart,1197831,28/10/2020,South,Texas,Houston,Women's Street Footwear,47,255,11985,587,Online
+364,Sports Direct,1197831,22/09/2021,South,Texas,Dallas,Men's Street Footwear,34,248,8432,363,Outlet
+365,Foot Locker,1185732,12/03/2020,Northeast,New York,New York,Women's Street Footwear,35,295,10325,434,Outlet
+366,Sports Direct,1197831,17/10/2021,South,Texas,Dallas,Men's Athletic Footwear,39,248,9672,406,Outlet
+367,Walmart,1197831,17/08/2020,South,Texas,Houston,Women's Apparel,32,295,9440,538,Outlet
+368,Sports Direct,1197831,15/05/2021,South,Tennessee,Knoxville,Men's Street Footwear,39,248,9672,464,Outlet
+369,Sports Direct,1197831,21/09/2021,South,Texas,Dallas,Women's Apparel,54,255,13770,923,Online
+370,Sports Direct,1197831,07/10/2021,South,Alabama,Birmingham,Men's Athletic Footwear,40,248,9920,526,Outlet
+371,Walmart,1197831,18/08/2020,South,Texas,Houston,Men's Street Footwear,28,295,8260,339,Outlet
+372,Walmart,1197831,24/08/2020,South,Texas,Houston,Men's Street Footwear,29,295,8555,342,Outlet
+373,Foot Locker,1185732,24/09/2020,Southeast,Florida,Miami,Men's Athletic Footwear,46,255,11730,528,Online
+374,Walmart,1128299,17/06/2021,Southeast,Florida,Orlando,Women's Apparel,74,248,18352,863,Outlet
+375,Sports Direct,1185732,02/07/2021,Southeast,North Carolina,Charlotte,Men's Street Footwear,60,294,17640,882,Online
+376,West Gear,1185732,12/01/2021,Southeast,Florida,Orlando,Men's Street Footwear,41,255,10455,575,Online
+377,Foot Locker,1128299,23/12/2021,Southeast,Virginia,Richmond,Men's Street Footwear,49,248,12152,486,Outlet
+378,Foot Locker,1185732,11/03/2020,Northeast,New York,New York,Men's Athletic Footwear,41,318,13038,482,Outlet
+379,Kohl's,1185732,11/08/2021,West,Wyoming,Cheyenne,Men's Street Footwear,47,255,11985,767,Online
+380,Foot Locker,1185732,06/02/2020,Northeast,New York,New York,Men's Street Footwear,54,317,17118,1096,Online
+381,West Gear,1185732,10/07/2021,West,Utah,Salt Lake City,Men's Street Footwear,28,248,6944,299,Outlet
+382,Foot Locker,1128299,23/07/2021,Southeast,Virginia,Richmond,Men's Street Footwear,79,255,20145,1007,Online
+383,Walmart,1185732,29/04/2020,Northeast,New York,New York,Women's Street Footwear,43,294,12642,531,Outlet
+384,Foot Locker,1185732,08/01/2020,Northeast,New York,New York,Men's Athletic Footwear,39,315,12285,405,Outlet
+385,West Gear,1185732,11/08/2021,West,Utah,Salt Lake City,Men's Street Footwear,27,248,6696,315,Outlet
+386,Sports Direct,1185732,15/12/2021,Midwest,Michigan,Detroit,Men's Street Footwear,55,255,14025,856,Online
+387,Walmart,1197831,29/08/2020,South,Texas,Houston,Women's Apparel,47,293,13771,868,Online
+388,West Gear,1128299,17/06/2021,South,Louisiana,New Orleans,Women's Apparel,80,248,19840,813,Outlet
+389,West Gear,1128299,11/02/2021,West,California,San Francisco,Men's Street Footwear,51,293,14943,598,Online
+390,West Gear,1128299,16/07/2021,South,Louisiana,New Orleans,Men's Athletic Footwear,67,248,16616,764,Outlet
+391,West Gear,1128299,23/07/2021,West,Oregon,Portland,Men's Street Footwear,79,255,20145,967,Online
+392,Foot Locker,1185732,24/01/2020,Northeast,New York,New York,Women's Apparel,48,290,13920,529,Online
+393,West Gear,1128299,16/12/2021,South,Louisiana,New Orleans,Men's Athletic Footwear,52,248,12896,567,Outlet
+394,West Gear,1197831,04/06/2021,West,Idaho,Boise,Women's Apparel,39,248,9672,532,Outlet
+395,Foot Locker,1185732,03/03/2020,Northeast,New York,New York,Women's Apparel,59,290,17110,616,Online
+396,West Gear,1128299,17/08/2021,South,Louisiana,New Orleans,Men's Street Footwear,86,255,21930,1118,Online
+397,Kohl's,1128299,25/07/2021,West,New Mexico,Albuquerque,Men's Street Footwear,41,248,10168,397,Outlet
+398,Sports Direct,1197831,25/07/2020,South,Texas,Houston,Men's Street Footwear,20,255,5100,209,Outlet
+399,Foot Locker,1185732,07/02/2021,Southeast,Georgia,Atlanta,Women's Street Footwear,21,248,5208,156,Outlet
+400,Walmart,1197831,06/09/2020,South,Texas,Houston,Men's Athletic Footwear,32,255,8160,302,Outlet
+401,Walmart,1185732,18/04/2020,Northeast,New York,New York,Women's Apparel,62,290,17980,665,Online
+402,Foot Locker,1185732,04/01/2020,Northeast,New York,New York,Women's Athletic Footwear,41,247,10127,466,Online
+403,Walmart,1197831,13/09/2020,South,Texas,Houston,Women's Street Footwear,39,255,9945,368,Outlet
+404,Walmart,1185732,26/04/2020,Northeast,New York,New York,Women's Apparel,68,290,19720,749,Online
+405,Foot Locker,1185732,27/01/2020,Northeast,New York,New York,Women's Street Footwear,39,247,9633,472,Online
+406,West Gear,1128299,21/01/2021,West,California,San Francisco,Women's Athletic Footwear,52,255,13260,451,Outlet
+407,Walmart,1185732,18/07/2020,Northeast,New York,New York,Women's Apparel,68,290,19720,690,Online
+408,Foot Locker,1185732,12/03/2020,Northeast,New York,New York,Women's Street Footwear,46,247,11362,511,Online
+409,West Gear,1185732,24/04/2020,Southeast,Florida,Miami,Men's Street Footwear,55,290,15950,941,Online
+410,Walmart,1197831,25/10/2020,South,Texas,Houston,Women's Apparel,51,247,12597,781,Online
+411,Foot Locker,1185732,05/12/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,67,290,19430,1166,Online
+412,Kohl's,1189833,08/05/2021,West,California,Los Angeles,Men's Athletic Footwear,50,247,12350,457,Online
+413,Foot Locker,1185732,26/01/2020,Northeast,New York,New York,Men's Athletic Footwear,35,315,11025,397,Outlet
+414,Foot Locker,1185732,11/08/2020,Southeast,Florida,Miami,Women's Apparel,41,247,10127,628,Online
+415,Walmart,1128299,17/08/2021,Southeast,Florida,Orlando,Men's Street Footwear,68,255,17340,624,Outlet
+416,Foot Locker,1185732,01/02/2020,Northeast,New York,New York,Men's Athletic Footwear,35,315,11025,364,Outlet
+417,West Gear,1185732,08/07/2021,Northeast,New York,Albany,Men's Street Footwear,59,247,14573,802,Online
+418,West Gear,1128299,17/08/2021,South,Louisiana,New Orleans,Men's Street Footwear,73,255,18615,875,Outlet
+419,Foot Locker,1185732,02/02/2020,Northeast,New York,New York,Women's Street Footwear,28,315,8820,335,Outlet
+420,Kohl's,1185732,12/06/2021,West,Wyoming,Cheyenne,Men's Street Footwear,46,247,11362,716,Online
+421,Foot Locker,1197831,08/08/2021,West,Idaho,Boise,Men's Athletic Footwear,37,255,9435,406,Outlet
+422,West Gear,1128299,09/11/2020,West,California,San Francisco,Women's Street Footwear,40,247,9880,405,Outlet
+423,Walmart,1185732,01/05/2020,Northeast,New York,New York,Men's Apparel,64,254,16256,683,Online
+424,Walmart,1185732,21/04/2020,Northeast,New York,New York,Women's Street Footwear,36,315,11340,442,Outlet
+425,West Gear,1128299,15/01/2021,West,California,San Francisco,Women's Athletic Footwear,46,247,11362,409,Outlet
+426,Sports Direct,1197831,31/07/2020,South,Texas,Houston,Men's Street Footwear,29,254,7366,331,Online
+427,Walmart,1185732,23/04/2020,Northeast,New York,New York,Men's Apparel,44,315,13860,513,Outlet
+428,West Gear,1128299,27/01/2021,West,California,San Francisco,Women's Athletic Footwear,39,247,9633,260,Outlet
+429,Sports Direct,1197831,18/09/2021,South,Texas,Dallas,Women's Street Footwear,44,254,11176,615,Online
+430,Walmart,1197831,12/08/2020,South,Texas,Houston,Men's Street Footwear,24,315,7560,295,Outlet
+431,West Gear,1128299,07/02/2021,West,California,San Francisco,Women's Street Footwear,40,247,9880,336,Outlet
+432,Sports Direct,1197831,03/04/2021,South,Tennessee,Knoxville,Men's Street Footwear,12,247,2964,133,Outlet
+433,West Gear,1197831,05/05/2021,West,Idaho,Boise,Men's Athletic Footwear,22,247,5434,223,Outlet
+434,Sports Direct,1185732,24/05/2020,Southeast,Florida,Miami,Men's Athletic Footwear,51,254,12954,609,Online
+435,Walmart,1197831,07/09/2020,South,Texas,Houston,Women's Street Footwear,36,315,11340,431,Outlet
+436,Foot Locker,1185732,09/01/2021,Southeast,Georgia,Atlanta,Men's Apparel,35,247,8645,337,Outlet
+437,Foot Locker,1185732,07/02/2021,Southeast,Georgia,Atlanta,Men's Athletic Footwear,27,247,6669,253,Outlet
+438,Sports Direct,1197831,08/09/2021,South,Alabama,Birmingham,Women's Street Footwear,41,254,10414,656,Online
+439,Kohl's,1185732,10/03/2021,West,Wyoming,Cheyenne,Men's Street Footwear,38,246,9348,561,Online
+440,Foot Locker,1185732,29/01/2020,Northeast,New York,New York,Men's Apparel,43,289,12427,398,Outlet
+441,West Gear,1128299,27/12/2020,West,California,San Francisco,Women's Street Footwear,46,254,11684,456,Outlet
+442,Kohl's,1185732,10/05/2021,West,Wyoming,Cheyenne,Men's Street Footwear,45,246,11070,720,Online
+443,West Gear,1128299,23/01/2021,West,California,San Francisco,Women's Apparel,60,254,15240,335,Outlet
+444,Sports Direct,1185732,02/05/2021,Southeast,North Carolina,Charlotte,Men's Street Footwear,41,246,10086,555,Online
+445,Sports Direct,1197831,30/09/2021,South,Texas,Dallas,Women's Street Footwear,47,254,11938,537,Outlet
+446,Kohl's,1197831,20/11/2021,South,Oklahoma,Oklahoma City,Women's Street Footwear,25,245,6125,2450,Online
+447,Foot Locker,1185732,03/02/2020,Northeast,New York,New York,Women's Athletic Footwear,31,289,8959,331,Outlet
+448,Foot Locker,1185732,09/02/2020,Northeast,New York,New York,Women's Athletic Footwear,33,289,9537,381,Outlet
+449,West Gear,1185732,03/11/2021,Midwest,Wisconsin,Milwaukee,Women's Street Footwear,35,245,8575,2573,In-store
+450,Foot Locker,1185732,02/02/2020,Northeast,New York,New York,Women's Street Footwear,39,252,9828,491,Online
+451,Walmart,1185732,25/04/2020,Northeast,New York,New York,Men's Apparel,51,289,14739,472,Outlet
+452,Foot Locker,1185732,10/02/2020,Northeast,New York,New York,Men's Apparel,59,245,14455,650,Online
+453,Foot Locker,1185732,08/03/2020,Northeast,New York,New York,Men's Apparel,55,252,13860,624,Online
+454,Sports Direct,1197831,26/07/2020,South,Texas,Houston,Men's Athletic Footwear,23,289,6647,279,Outlet
+455,West Gear,1128299,13/01/2021,West,California,San Francisco,Men's Athletic Footwear,59,245,14455,491,Online
+456,Walmart,1197831,25/10/2020,South,Texas,Houston,Women's Apparel,44,289,12716,725,Outlet
+457,Sports Direct,1197831,05/09/2021,South,Alabama,Birmingham,Women's Apparel,50,245,12250,882,Online
+458,West Gear,1185732,08/12/2021,Northeast,New York,Albany,Men's Street Footwear,59,245,14455,838,Online
+459,Walmart,1185732,22/04/2020,Northeast,New York,New York,Women's Athletic Footwear,47,252,11844,545,Online
+460,Sports Direct,1185732,04/10/2021,Southeast,North Carolina,Charlotte,Men's Street Footwear,42,245,10290,556,Online
+461,West Gear,1185732,14/09/2020,Southeast,Florida,Miami,Women's Athletic Footwear,53,233,12349,531,Online
+462,Walmart,1185732,23/04/2020,Northeast,New York,New York,Men's Apparel,58,252,14616,585,Online
+463,Walmart,1197831,15/08/2020,South,Texas,Houston,Women's Athletic Footwear,31,245,7595,387,Outlet
+464,Walmart,1185732,30/04/2020,Northeast,New York,New York,Women's Athletic Footwear,50,252,12600,617,Online
+465,West Gear,1128299,07/11/2020,West,California,San Francisco,Men's Street Footwear,28,289,8092,340,Outlet
+466,West Gear,1128299,24/12/2020,West,California,San Francisco,Women's Apparel,41,245,10045,201,Outlet
+467,West Gear,1128299,31/12/2020,West,California,San Francisco,Men's Street Footwear,56,252,14112,706,Online
+468,West Gear,1128299,30/01/2021,West,California,San Francisco,Men's Street Footwear,36,289,10404,343,Outlet
+469,West Gear,1128299,30/12/2020,West,California,San Francisco,Women's Apparel,62,245,15190,289,Outlet
+470,Kohl's,1189833,07/05/2021,West,California,Los Angeles,Men's Street Footwear,38,289,10982,505,Outlet
+471,West Gear,1128299,15/02/2021,West,California,San Francisco,Men's Apparel,43,245,10535,548,Outlet
+472,Foot Locker,1185732,16/07/2021,South,Mississippi,Jackson,Men's Street Footwear,47,289,13583,625,Outlet
+473,West Gear,1128299,01/02/2020,West,Nevada,Las Vegas,Men's Street Footwear,47,245,11515,576,Outlet
+474,Foot Locker,1185732,08/02/2020,Northeast,New York,New York,Women's Street Footwear,36,288,10368,435,Outlet
+475,West Gear,1185732,16/09/2020,Southeast,Florida,Miami,Women's Apparel,67,244,16348,1063,Online
+476,Foot Locker,1185732,08/03/2020,Northeast,New York,New York,Men's Apparel,45,288,12960,441,Outlet
+477,Sports Direct,1185732,05/10/2020,Southeast,Florida,Miami,Men's Street Footwear,56,244,13664,793,Online
+478,Foot Locker,1185732,05/07/2021,Southeast,South Carolina,Charleston,Women's Apparel,66,244,16104,1047,Online
+479,Foot Locker,1185732,07/10/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,50,244,12200,732,Online
+480,Sports Direct,1185732,02/12/2021,Southeast,North Carolina,Charlotte,Men's Street Footwear,64,244,15616,796,Online
+481,Foot Locker,1185732,23/01/2020,Northeast,New York,New York,Men's Apparel,58,243,14094,606,Online
+482,Foot Locker,1185732,13/03/2020,Northeast,New York,New York,Women's Athletic Footwear,46,243,11178,514,Online
+483,Kohl's,1189833,26/05/2021,West,California,Los Angeles,Men's Athletic Footwear,42,288,12096,339,Outlet
+484,Walmart,1197831,21/10/2020,South,Texas,Houston,Men's Athletic Footwear,43,243,10449,512,Online
+485,West Gear,1185732,10/02/2021,Southeast,Florida,Orlando,Men's Street Footwear,36,288,10368,487,Outlet
+486,Kohl's,1189833,26/05/2021,West,California,Los Angeles,Men's Athletic Footwear,50,243,12150,462,Online
+487,Foot Locker,1185732,05/09/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,51,287,14637,849,Online
+488,Foot Locker,1185732,06/08/2021,Southeast,South Carolina,Charleston,Men's Athletic Footwear,54,243,13122,643,Online
+489,Walmart,1197831,13/08/2020,South,Texas,Houston,Men's Athletic Footwear,30,287,8610,362,Outlet
+490,Foot Locker,1185732,31/03/2020,Northeast,New York,New York,Women's Athletic Footwear,47,241,11327,532,Online
+491,West Gear,1128299,24/01/2021,West,California,San Francisco,Men's Street Footwear,40,287,11480,402,Outlet
+492,Foot Locker,1185732,20/09/2020,Southeast,Florida,Miami,Women's Athletic Footwear,44,233,10252,410,Online
+493,West Gear,1128299,24/01/2021,West,California,San Francisco,Men's Street Footwear,51,241,12291,516,Online
+494,Sports Direct,1197831,21/04/2021,South,Tennessee,Knoxville,Men's Street Footwear,41,233,9553,545,Online
+495,West Gear,1197831,06/07/2021,West,Idaho,Boise,Women's Street Footwear,46,241,11086,610,Online
+496,Sports Direct,1197831,22/04/2021,South,Tennessee,Knoxville,Men's Athletic Footwear,54,233,12582,717,Online
+497,Walmart,1197831,11/09/2020,South,Texas,Houston,Men's Street Footwear,44,240,10560,528,Online
+498,Sports Direct,1197831,06/10/2021,South,Alabama,Birmingham,Men's Street Footwear,56,233,13048,822,Online
+499,Kohl's,1189833,07/04/2021,West,California,Los Angeles,Men's Street Footwear,43,240,10320,516,Online
+500,Foot Locker,1128299,24/06/2021,Southeast,Virginia,Richmond,Men's Street Footwear,53,233,12349,580,Online
+501,Foot Locker,1185732,14/08/2020,Southeast,Florida,Miami,Women's Street Footwear,32,240,7680,292,Online
+502,West Gear,1128299,24/08/2021,West,Oregon,Portland,Men's Athletic Footwear,76,233,17708,868,Online
+503,Sports Direct,1197831,16/05/2021,South,Tennessee,Knoxville,Men's Athletic Footwear,51,240,12240,673,Online
+504,Foot Locker,1197831,04/12/2021,West,Idaho,Boise,Men's Street Footwear,54,233,12582,679,Online
+505,Sports Direct,1197831,11/09/2021,South,Alabama,Birmingham,Women's Apparel,56,240,13440,1075,Online
+506,Foot Locker,1185732,06/08/2021,Southeast,South Carolina,Charleston,Women's Athletic Footwear,44,233,10252,420,Online
+507,Kohl's,1189833,01/05/2021,West,California,Los Angeles,Men's Street Footwear,47,252,11844,616,Online
+508,Foot Locker,1128299,24/08/2021,Southeast,Virginia,Richmond,Men's Street Footwear,83,240,19920,896,Online
+509,Walmart,1197831,19/07/2021,South,Arkansas,Little Rock,Men's Street Footwear,50,233,11650,583,Online
+510,West Gear,1185732,18/09/2020,Southeast,Florida,Miami,Men's Athletic Footwear,55,252,13860,624,Online
+511,West Gear,1128299,16/12/2021,South,Louisiana,New Orleans,Men's Street Footwear,69,240,16560,861,Online
+512,Walmart,1197831,16/09/2020,South,Texas,Houston,Women's Apparel,43,233,10019,541,Outlet
+513,Foot Locker,1185732,05/07/2021,Southeast,South Carolina,Charleston,Men's Apparel,64,240,15360,691,Online
+514,West Gear,1128299,06/11/2020,West,California,San Francisco,Women's Apparel,36,233,8388,176,Outlet
+515,West Gear,1185732,08/03/2021,Northeast,New York,Albany,Men's Street Footwear,44,252,11088,654,Online
+516,Foot Locker,1185732,28/01/2020,Northeast,New York,New York,Women's Athletic Footwear,31,240,7440,298,Outlet
+517,West Gear,1128299,01/01/2021,West,California,San Francisco,Men's Athletic Footwear,51,233,11883,321,Outlet
+518,Amazon,1185732,09/07/2021,Midwest,Ohio,Columbus,Men's Street Footwear,63,252,15876,826,Online
+519,Walmart,1197831,14/08/2020,South,Texas,Houston,Women's Street Footwear,23,240,5520,204,Outlet
+520,Kohl's,1189833,21/04/2021,West,California,Los Angeles,Women's Street Footwear,35,233,8155,343,Outlet
+521,Foot Locker,1185732,18/10/2020,Southeast,Florida,Miami,Men's Athletic Footwear,35,250,8750,2625,In-store
+522,West Gear,1128299,16/01/2021,West,California,San Francisco,Men's Apparel,44,240,10560,591,Outlet
+523,Sports Direct,1197831,04/09/2021,South,Texas,Dallas,Men's Street Footwear,13,233,3029,115,Outlet
+524,Kohl's,1189833,13/03/2021,West,California,Los Angeles,Men's Street Footwear,28,240,6720,309,Outlet
+525,West Gear,1128299,07/02/2020,West,Nevada,Las Vegas,Men's Street Footwear,48,233,11184,492,Outlet
+526,Kohl's,1189833,13/04/2021,West,California,Los Angeles,Men's Street Footwear,32,240,7680,361,Outlet
+527,Foot Locker,1185732,19/10/2020,Southeast,Florida,Miami,Women's Street Footwear,25,250,6250,1875,In-store
+528,Sports Direct,1197831,21/04/2021,South,Tennessee,Knoxville,Men's Street Footwear,29,233,6757,345,Outlet
+529,Kohl's,1189833,27/04/2021,West,California,Los Angeles,Women's Street Footwear,33,240,7920,364,Outlet
+530,Foot Locker,1185732,22/10/2020,Midwest,Minnesota,Minneapolis,Women's Apparel,35,250,8750,3938,In-store
+531,Sports Direct,1197831,01/09/2021,South,Alabama,Birmingham,Men's Athletic Footwear,35,233,8155,383,Outlet
+532,West Gear,1128299,25/01/2021,West,California,San Francisco,Men's Athletic Footwear,42,287,12054,205,Outlet
+533,Sports Direct,1197831,27/09/2021,South,Texas,Dallas,Women's Apparel,43,240,10320,619,Outlet
+534,Amazon,1185732,14/10/2021,South,Alabama,Birmingham,Women's Street Footwear,30,250,7500,3000,Outlet
+535,Sports Direct,1197831,12/09/2021,South,Alabama,Birmingham,Men's Street Footwear,27,233,6291,346,Outlet
+536,Sports Direct,1197831,04/04/2021,South,Tennessee,Knoxville,Men's Athletic Footwear,20,240,4800,211,Outlet
+537,Sports Direct,1197831,13/09/2021,South,Alabama,Birmingham,Men's Athletic Footwear,39,233,9087,491,Outlet
+538,Foot Locker,1185732,15/03/2020,Northeast,New York,New York,Women's Apparel,61,286,17446,698,Online
+539,Foot Locker,1185732,18/02/2021,Midwest,Missouri,St. Louis,Women's Athletic Footwear,25,250,6250,2500,In-store
+540,Walmart,1185732,05/05/2020,Northeast,New York,New York,Women's Street Footwear,54,285,15390,723,Online
+541,Sports Direct,1197831,10/04/2021,South,Tennessee,Knoxville,Men's Athletic Footwear,32,240,7680,361,Outlet
+542,Foot Locker,1185732,18/10/2021,Midwest,Missouri,St. Louis,Women's Street Footwear,25,250,6250,2188,In-store
+543,Walmart,1197831,27/10/2020,South,Texas,Houston,Men's Athletic Footwear,44,285,12540,602,Online
+544,Sports Direct,1197831,06/10/2021,South,Alabama,Birmingham,Men's Street Footwear,46,240,11040,618,Outlet
+545,West Gear,1185732,10/03/2021,West,Utah,Salt Lake City,Women's Athletic Footwear,25,250,6250,2500,In-store
+546,Sports Direct,1197831,23/04/2021,South,Tennessee,Knoxville,Women's Street Footwear,46,285,13110,787,Online
+547,Foot Locker,1128299,24/08/2021,Southeast,Virginia,Richmond,Men's Athletic Footwear,53,240,12720,534,Outlet
+548,Walmart,1197831,25/08/2020,South,Texas,Houston,Men's Athletic Footwear,32,285,9120,383,Outlet
+549,West Gear,1185732,11/04/2021,West,Utah,Salt Lake City,Women's Athletic Footwear,20,250,5000,2000,In-store
+550,Amazon,1185732,22/02/2021,Midwest,Ohio,Columbus,Women's Street Footwear,30,250,7500,3000,Online
+551,Amazon,1185732,21/03/2021,Southeast,Kentucky,Louisville,Women's Street Footwear,35,250,8750,3500,Online
+552,Kohl's,1189833,25/04/2021,West,California,Los Angeles,Men's Street Footwear,30,285,8550,402,Outlet
+553,Walmart,1197831,21/02/2021,South,Arkansas,Little Rock,Women's Athletic Footwear,20,250,5000,2000,Online
+554,Foot Locker,1185732,23/09/2020,Southeast,Florida,Miami,Men's Street Footwear,53,284,15052,828,Online
+555,Walmart,1197831,19/03/2021,South,Arkansas,Little Rock,Men's Apparel,35,250,8750,3063,Online
+556,Foot Locker,1185732,06/04/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,33,283,9339,532,Online
+557,Foot Locker,1185732,05/05/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,48,282,13536,744,Online
+558,West Gear,1128299,24/06/2021,West,Oregon,Portland,Men's Street Footwear,43,240,10320,392,Outlet
+559,West Gear,1197831,21/02/2021,South,Oklahoma,Oklahoma City,Men's Apparel,35,250,8750,3063,Online
+560,Foot Locker,1185732,04/01/2020,Northeast,New York,New York,Women's Athletic Footwear,36,281,10116,374,Outlet
+561,West Gear,1197831,05/05/2021,West,Idaho,Boise,Women's Apparel,33,240,7920,436,Outlet
+562,West Gear,1197831,19/03/2021,South,Oklahoma,Oklahoma City,Men's Athletic Footwear,20,250,5000,1750,Online
+563,Foot Locker,1128299,24/06/2021,Southeast,Virginia,Richmond,Men's Street Footwear,37,233,8621,319,Outlet
+564,West Gear,1197831,19/09/2021,South,Oklahoma,Oklahoma City,Women's Athletic Footwear,15,250,3750,1500,Online
+565,Sports Direct,1185732,19/01/2021,Southeast,Virginia,Richmond,Men's Street Footwear,23,233,5359,279,Outlet
+566,West Gear,1197831,19/09/2021,South,Oklahoma,Oklahoma City,Men's Apparel,25,250,6250,2188,Online
+567,West Gear,1128299,23/12/2021,West,Oregon,Portland,Men's Athletic Footwear,56,233,13048,522,Outlet
+568,West Gear,1197831,04/06/2021,West,Idaho,Boise,Men's Street Footwear,31,233,7223,274,Outlet
+569,Kohl's,1197831,16/01/2021,South,Oklahoma,Oklahoma City,Men's Apparel,35,250,8750,3063,Online
+570,Foot Locker,1197831,08/08/2021,West,Idaho,Boise,Men's Street Footwear,38,233,8854,372,Outlet
+571,Kohl's,1197831,14/02/2021,South,Oklahoma,Oklahoma City,Men's Athletic Footwear,25,250,6250,2188,Online
+572,Foot Locker,1197831,04/12/2021,West,Idaho,Boise,Men's Street Footwear,40,240,9600,432,Outlet
+573,Foot Locker,1197831,04/12/2021,West,Idaho,Boise,Men's Athletic Footwear,41,240,9840,453,Outlet
+574,Foot Locker,1185732,03/02/2020,Northeast,New York,New York,Women's Athletic Footwear,41,239,9799,480,Online
+575,Kohl's,1197831,12/03/2021,Midwest,Kansas,Wichita,Women's Street Footwear,10,250,2500,875,Online
+576,Kohl's,1197831,12/03/2021,Midwest,Kansas,Wichita,Women's Apparel,25,250,6250,2188,Online
+577,Kohl's,1197831,12/05/2021,Midwest,Kansas,Wichita,Women's Street Footwear,35,250,8750,3063,Online
+578,West Gear,1128299,01/07/2020,West,Washington,Seattle,Men's Street Footwear,73,239,17447,698,Online
+579,Kohl's,1197831,12/09/2021,Midwest,Kansas,Wichita,Women's Street Footwear,15,250,3750,1313,Online
+580,West Gear,1128299,17/08/2021,South,Louisiana,New Orleans,Men's Athletic Footwear,77,239,18403,939,Online
+581,Foot Locker,1185732,09/01/2021,Southeast,Georgia,Atlanta,Women's Apparel,37,239,8843,531,Online
+582,Sports Direct,1185732,09/06/2021,Midwest,North Dakota,Fargo,Men's Athletic Footwear,35,250,8750,2625,In-store
+583,Walmart,1197831,20/08/2021,South,Arkansas,Little Rock,Men's Street Footwear,43,233,10019,451,Outlet
+584,West Gear,1128299,08/11/2020,West,California,San Francisco,Men's Athletic Footwear,36,239,8604,215,Outlet
+585,Walmart,1197831,11/08/2020,South,Texas,Houston,Women's Apparel,39,232,9048,552,Online
+586,Foot Locker,1185732,06/01/2021,Midwest,North Dakota,Fargo,Men's Athletic Footwear,30,250,7500,2625,In-store
+587,Sports Direct,1197831,18/10/2021,South,Texas,Dallas,Women's Street Footwear,46,239,10994,484,Outlet
+588,Walmart,1197831,20/08/2020,South,Texas,Houston,Women's Street Footwear,37,232,8584,421,Online
+589,Foot Locker,1185732,06/01/2021,Midwest,North Dakota,Fargo,Women's Street Footwear,20,250,5000,1500,In-store
+590,Sports Direct,1197831,08/08/2021,West,Idaho,Boise,Women's Apparel,44,239,10516,641,Outlet
+591,Foot Locker,1185732,06/01/2021,Midwest,North Dakota,Fargo,Women's Apparel,30,250,7500,3000,In-store
+592,Foot Locker,1185732,06/02/2021,Midwest,Iowa,Des Moines,Women's Apparel,15,250,3750,1500,In-store
+593,Foot Locker,1185732,05/03/2021,Midwest,Iowa,Des Moines,Women's Apparel,20,250,5000,2000,In-store
+594,Kohl's,1189833,14/05/2021,West,California,Los Angeles,Men's Athletic Footwear,51,232,11832,426,Online
+595,Foot Locker,1185732,30/01/2020,Northeast,New York,New York,Women's Apparel,45,238,10710,375,Online
+596,Sports Direct,1185732,15/09/2021,Midwest,Michigan,Detroit,Men's Street Footwear,42,232,9744,614,Online
+597,Foot Locker,1185732,05/09/2021,Southeast,South Carolina,Charleston,Women's Apparel,52,232,12064,724,Online
+598,Foot Locker,1185732,06/10/2021,Midwest,Iowa,Des Moines,Men's Athletic Footwear,35,250,8750,3063,In-store
+599,Amazon,1185732,11/06/2021,Midwest,Ohio,Columbus,Men's Street Footwear,49,232,11368,603,Online
+600,Sports Direct,1197831,08/08/2020,South,Texas,Houston,Women's Street Footwear,24,232,5568,206,Outlet
+601,West Gear,1185732,03/01/2021,Midwest,Iowa,Des Moines,Men's Athletic Footwear,30,250,7500,2625,In-store
+602,Kohl's,1189833,03/05/2021,West,California,Los Angeles,Women's Street Footwear,34,232,7888,347,Outlet
+603,West Gear,1185732,03/01/2021,Midwest,Iowa,Des Moines,Women's Street Footwear,20,250,5000,1500,In-store
+604,Kohl's,1189833,30/05/2021,West,California,Los Angeles,Women's Apparel,44,232,10208,255,Outlet
+605,West Gear,1185732,03/01/2021,Midwest,Iowa,Des Moines,Women's Apparel,30,250,7500,3000,In-store
+606,Sports Direct,1197831,28/09/2021,South,Texas,Dallas,Men's Street Footwear,38,232,8816,406,Outlet
+607,Foot Locker,1185732,04/02/2020,Northeast,New York,New York,Men's Apparel,44,281,12364,445,Outlet
+608,West Gear,1185732,03/02/2021,Midwest,Wisconsin,Milwaukee,Women's Apparel,15,250,3750,1500,In-store
+609,Walmart,1197831,22/10/2020,South,Texas,Houston,Women's Street Footwear,34,281,9554,373,Outlet
+610,Foot Locker,1185732,05/02/2020,Northeast,New York,New York,Women's Apparel,49,238,11662,431,Online
+611,West Gear,1185732,04/09/2021,Midwest,Wisconsin,Milwaukee,Men's Athletic Footwear,30,250,7500,2625,In-store
+612,Sports Direct,1197831,26/04/2021,South,Tennessee,Knoxville,Women's Apparel,40,232,9280,622,Outlet
+613,West Gear,1128299,08/01/2021,West,California,San Francisco,Women's Street Footwear,42,281,11802,531,Outlet
+614,Foot Locker,1197831,04/12/2021,West,Idaho,Boise,Women's Apparel,47,232,10904,665,Outlet
+615,Walmart,1197831,18/08/2020,South,Texas,Houston,Men's Street Footwear,39,238,9282,436,Online
+616,West Gear,1185732,10/02/2021,Midwest,Wisconsin,Milwaukee,Women's Street Footwear,25,250,6250,2188,In-store
+617,Sports Direct,1197831,16/10/2021,South,Texas,Dallas,Men's Street Footwear,46,281,12926,608,Outlet
+618,Walmart,1185732,16/09/2021,South,Mississippi,Jackson,Men's Street Footwear,40,232,9280,408,Outlet
+619,Walmart,1197831,19/08/2020,South,Texas,Houston,Men's Athletic Footwear,42,238,9996,450,Online
+620,Foot Locker,1185732,09/01/2021,Southeast,Georgia,Atlanta,Women's Apparel,30,281,8430,447,Outlet
+621,Foot Locker,1185732,14/03/2020,Northeast,New York,New York,Men's Apparel,58,231,13398,576,Online
+622,Walmart,1197831,24/08/2020,South,Texas,Houston,Men's Street Footwear,37,238,8806,396,Online
+623,West Gear,1185732,10/10/2021,Midwest,Indiana,Indianapolis,Men's Athletic Footwear,35,250,8750,3500,In-store
+624,Kohl's,1189833,19/05/2021,West,California,Los Angeles,Men's Street Footwear,49,231,11319,566,Online
+625,Walmart,1197831,25/08/2020,South,Texas,Houston,Men's Athletic Footwear,42,238,9996,460,Online
+626,Sports Direct,1197831,16/09/2021,South,Texas,Dallas,Men's Street Footwear,41,231,9471,492,Online
+627,Sports Direct,1197831,17/10/2021,South,Texas,Dallas,Men's Athletic Footwear,56,231,12936,673,Online
+628,Walmart,1185732,24/04/2020,Northeast,New York,New York,Women's Apparel,59,280,16520,661,Online
+629,West Gear,1185732,19/09/2020,Southeast,Florida,Miami,Women's Street Footwear,53,231,12243,453,Online
+630,West Gear,1185732,17/04/2021,Northeast,West Virginia,Charleston,Men's Athletic Footwear,30,250,7500,3000,In-store
+631,Walmart,1197831,26/10/2020,South,Texas,Houston,Men's Street Footwear,41,238,9758,468,Online
+632,West Gear,1197831,04/06/2021,West,Idaho,Boise,Women's Apparel,55,231,12705,775,Online
+633,West Gear,1185732,17/04/2021,Northeast,West Virginia,Charleston,Women's Street Footwear,20,250,5000,2000,In-store
+634,Kohl's,1189833,25/04/2021,West,California,Los Angeles,Men's Street Footwear,41,238,9758,498,Online
+635,Foot Locker,1185732,06/08/2021,Southeast,South Carolina,Charleston,Women's Street Footwear,50,231,11550,462,Online
+636,Foot Locker,1185732,10/02/2020,Northeast,New York,New York,Men's Apparel,47,280,13160,461,Outlet
+637,West Gear,1185732,18/09/2021,Northeast,West Virginia,Charleston,Women's Street Footwear,25,250,6250,2500,In-store
+638,Walmart,1185732,01/05/2020,Northeast,New York,New York,Men's Apparel,47,280,13160,474,Outlet
+639,Sports Direct,1185732,06/01/2021,Southeast,South Carolina,Charleston,Men's Street Footwear,33,231,7623,381,Online
+640,Kohl's,1185732,07/04/2021,Northeast,New Jersey,Newark,Women's Apparel,35,250,8750,3500,In-store
+641,West Gear,1185732,08/09/2021,Northeast,New York,Albany,Men's Street Footwear,50,238,11900,702,Online
+642,Sports Direct,1185732,04/06/2021,Southeast,North Carolina,Charlotte,Women's Apparel,67,231,15477,929,Online
+643,Kohl's,1185732,12/02/2021,Northeast,New York,Albany,Men's Street Footwear,37,238,8806,537,Online
+644,Sports Direct,1185732,03/08/2021,Southeast,North Carolina,Charlotte,Women's Apparel,54,231,12474,798,Online
+645,Sports Direct,1185732,04/06/2021,Southeast,North Carolina,Charlotte,Men's Street Footwear,46,238,10948,602,Online
+646,Amazon,1185732,11/02/2021,Southeast,North Carolina,Charlotte,Men's Street Footwear,32,231,7392,370,Online
+647,Sports Direct,1197831,21/07/2020,Northeast,New York,New York,Women's Street Footwear,27,238,6426,251,Outlet
+648,Amazon,1185732,09/03/2021,Midwest,Ohio,Columbus,Men's Street Footwear,27,231,6237,324,Online
+649,Kohl's,1189833,24/05/2021,West,California,Los Angeles,Women's Apparel,49,238,11662,280,Outlet
+650,Amazon,1185732,09/12/2021,Midwest,Ohio,Columbus,Men's Street Footwear,70,231,16170,809,Online
+651,Sports Direct,1197831,30/07/2020,South,Texas,Houston,Women's Apparel,26,231,6006,330,Outlet
+652,West Gear,1128299,14/11/2020,West,California,San Francisco,Men's Athletic Footwear,39,231,9009,207,Outlet
+653,Kohl's,1189833,27/05/2021,West,California,Los Angeles,Women's Street Footwear,39,231,9009,414,Outlet
+654,West Gear,1128299,13/02/2020,West,Nevada,Las Vegas,Men's Street Footwear,44,238,10472,482,Outlet
+655,Sports Direct,1197831,29/08/2021,South,Texas,Dallas,Men's Street Footwear,13,231,3003,120,Outlet
+656,Walmart,1128299,17/06/2021,Southeast,Florida,Orlando,Women's Street Footwear,60,238,14280,471,Outlet
+657,Walmart,1128299,17/08/2021,Southeast,Florida,Orlando,Women's Street Footwear,62,231,14322,473,Outlet
+658,Walmart,1128299,16/07/2021,Southeast,Florida,Orlando,Women's Street Footwear,72,238,17136,583,Outlet
+659,Walmart,1128299,17/11/2021,Southeast,Florida,Orlando,Men's Athletic Footwear,46,231,10626,340,Outlet
+660,Kohl's,1128299,25/12/2021,West,New Mexico,Albuquerque,Men's Street Footwear,44,238,10472,440,Outlet
+661,Foot Locker,1128299,24/06/2021,Southeast,Virginia,Richmond,Women's Apparel,82,231,18942,701,Outlet
+662,Foot Locker,1185732,16/05/2021,South,Mississippi,Jackson,Men's Street Footwear,27,238,6426,270,Outlet
+663,West Gear,1185732,10/12/2021,West,Utah,Salt Lake City,Men's Street Footwear,29,231,6699,308,Outlet
+664,West Gear,1128299,24/06/2021,West,Oregon,Portland,Women's Apparel,74,231,17094,564,Outlet
+665,Foot Locker,1185732,29/01/2020,Northeast,New York,New York,Men's Apparel,59,230,13570,570,Online
+666,West Gear,1197831,19/12/2021,South,Arkansas,Little Rock,Men's Street Footwear,55,238,13090,602,Outlet
+667,Foot Locker,1185732,09/02/2020,Northeast,New York,New York,Women's Athletic Footwear,46,230,10580,508,Online
+668,West Gear,1128299,13/11/2020,West,California,San Francisco,Men's Street Footwear,49,230,11270,507,Online
+669,Foot Locker,1185732,08/08/2020,West,Washington,Seattle,Women's Street Footwear,34,230,7820,305,Online
+670,Sports Direct,1185732,05/02/2021,Northeast,New Jersey,Newark,Women's Street Footwear,30,250,7500,2250,In-store
+671,West Gear,1128299,31/01/2021,West,California,San Francisco,Men's Athletic Footwear,39,280,10920,197,Outlet
+672,Walmart,1197831,23/10/2020,South,Texas,Houston,Women's Athletic Footwear,36,230,8280,414,Outlet
+673,Sports Direct,1197831,11/09/2021,South,Texas,Dallas,Men's Athletic Footwear,40,280,11200,459,Outlet
+674,Kohl's,1189833,05/05/2021,West,California,Los Angeles,Men's Apparel,43,230,9890,613,Outlet
+675,Sports Direct,1197831,15/09/2021,South,Texas,Dallas,Women's Apparel,42,280,11760,647,Outlet
+676,West Gear,1197831,19/07/2021,South,Oklahoma,Oklahoma City,Men's Street Footwear,43,238,10234,430,Outlet
+677,Sports Direct,1197831,17/08/2021,South,Texas,Dallas,Men's Street Footwear,19,230,4370,140,Outlet
+678,Sports Direct,1185732,03/03/2021,Northeast,Connecticut,Hartford,Women's Street Footwear,30,250,7500,2250,In-store
+679,Walmart,1185732,25/04/2020,Northeast,New York,New York,Men's Apparel,64,236,15104,634,Online
+680,Sports Direct,1197831,05/09/2021,West,Idaho,Boise,Men's Street Footwear,41,230,9430,434,Outlet
+681,Sports Direct,1185732,17/01/2021,Northeast,Rhode Island,Providence,Women's Street Footwear,30,250,7500,1875,In-store
+682,Sports Direct,1197831,05/09/2021,South,Alabama,Birmingham,Women's Apparel,36,280,10080,645,Outlet
+683,Sports Direct,1197831,01/08/2020,South,Texas,Houston,Men's Athletic Footwear,39,236,9204,414,Online
+684,West Gear,1197831,20/08/2021,South,Oklahoma,Oklahoma City,Men's Street Footwear,41,230,9430,396,Outlet
+685,Sports Direct,1197831,11/09/2021,South,Alabama,Birmingham,Women's Apparel,47,280,13160,921,Outlet
+686,West Gear,1128299,30/01/2021,West,California,San Francisco,Men's Street Footwear,51,236,12036,542,Online
+687,Walmart,1128299,16/12/2021,Southeast,Florida,Orlando,Men's Street Footwear,58,280,16240,585,Outlet
+688,West Gear,1128299,06/02/2021,West,California,San Francisco,Men's Athletic Footwear,58,236,13688,342,Online
+689,West Gear,1128299,25/12/2020,West,California,San Francisco,Men's Street Footwear,56,228,12768,600,Online
+690,Kohl's,1185732,10/07/2021,West,Wyoming,Cheyenne,Men's Street Footwear,48,228,10944,700,Online
+691,Walmart,1185732,17/04/2020,Northeast,New York,New York,Men's Apparel,43,279,11997,396,Outlet
+692,Sports Direct,1197831,14/04/2021,South,Tennessee,Knoxville,Women's Apparel,49,236,11564,752,Online
+693,Walmart,1185732,07/05/2020,Northeast,New York,New York,Men's Apparel,48,279,13392,496,Outlet
+694,Sports Direct,1185732,05/12/2021,Southeast,South Carolina,Charleston,Women's Apparel,68,228,15504,930,Online
+695,Foot Locker,1185732,06/03/2020,Northeast,New York,New York,Women's Street Footwear,46,278,12788,614,Online
+696,Sports Direct,1197831,27/07/2020,South,Texas,Houston,Women's Street Footwear,27,236,6372,261,Outlet
+697,Amazon,1185732,10/08/2021,Midwest,Ohio,Columbus,Men's Street Footwear,61,228,13908,695,Online
+698,Sports Direct,1197831,24/08/2021,South,Texas,Dallas,Men's Athletic Footwear,31,236,7316,293,Outlet
+699,Sports Direct,1197831,05/08/2020,South,Texas,Houston,Women's Apparel,29,228,6612,364,Outlet
+700,Sports Direct,1197831,03/10/2021,South,Texas,Dallas,Women's Apparel,33,236,7788,459,Outlet
+701,Walmart,1197831,03/09/2020,South,Texas,Houston,Men's Apparel,35,228,7980,271,Outlet
+702,Foot Locker,1185732,22/09/2020,Southeast,Florida,Miami,Women's Apparel,56,278,15568,950,Online
+703,Sports Direct,1197831,15/10/2021,South,Texas,Dallas,Women's Apparel,51,236,12036,734,Outlet
+704,Sports Direct,1185732,15/02/2021,Northeast,Massachusetts,Boston,Women's Athletic Footwear,35,250,8750,2188,In-store
+705,Foot Locker,1185732,06/08/2021,Southeast,South Carolina,Charleston,Women's Apparel,58,278,16124,984,Online
+706,Walmart,1197831,21/06/2021,South,Arkansas,Little Rock,Men's Street Footwear,28,236,6608,291,Outlet
+707,Foot Locker,1185732,03/01/2020,Northeast,New York,New York,Women's Street Footwear,36,250,9000,414,Online
+708,Walmart,1197831,23/08/2020,South,Texas,Houston,Women's Apparel,47,250,11750,752,Online
+709,West Gear,1128299,03/01/2021,West,California,San Francisco,Women's Athletic Footwear,42,228,9576,402,Outlet
+710,West Gear,1185732,09/08/2021,Northeast,New York,Albany,Men's Street Footwear,62,250,15500,868,Online
+711,West Gear,1128299,09/02/2021,West,California,San Francisco,Men's Apparel,51,228,11628,547,Outlet
+712,Kohl's,1189833,20/03/2021,West,California,Los Angeles,Men's Athletic Footwear,36,228,8208,230,Outlet
+713,Kohl's,1189833,28/04/2021,West,California,Los Angeles,Women's Athletic Footwear,29,228,6612,264,Outlet
+714,Foot Locker,1197831,08/08/2021,West,Idaho,Boise,Women's Street Footwear,46,250,11500,610,Online
+715,Sports Direct,1197831,12/10/2021,South,Texas,Dallas,Women's Street Footwear,51,228,11628,512,Outlet
+716,Foot Locker,1185732,07/06/2021,Southeast,South Carolina,Charleston,Women's Apparel,65,250,16250,1040,Online
+717,Sports Direct,1185732,02/09/2021,Southeast,North Carolina,Charlotte,Men's Street Footwear,53,250,13250,689,Online
+718,West Gear,1128299,07/01/2021,West,California,San Francisco,Men's Athletic Footwear,63,248,15624,578,Online
+719,Sports Direct,1197831,02/09/2021,South,Alabama,Birmingham,Women's Street Footwear,35,228,7980,407,Outlet
+720,West Gear,1128299,14/01/2021,West,California,San Francisco,Women's Street Footwear,62,248,15376,707,Online
+721,West Gear,1185732,10/03/2021,West,Utah,Salt Lake City,Men's Street Footwear,20,228,4560,196,Outlet
+722,West Gear,1185732,02/03/2021,Midwest,Wisconsin,Milwaukee,Women's Apparel,20,225,4500,1800,In-store
+723,West Gear,1185732,24/04/2020,Southeast,Florida,Miami,Women's Apparel,64,248,15872,1016,Online
+724,West Gear,1185732,12/05/2021,West,Utah,Salt Lake City,Men's Street Footwear,27,228,6156,265,Outlet
+725,West Gear,1185732,12/09/2021,West,Utah,Salt Lake City,Men's Street Footwear,23,228,5244,236,Outlet
+726,West Gear,1185732,02/07/2021,Midwest,Wisconsin,Milwaukee,Women's Street Footwear,40,225,9000,2700,In-store
+727,Walmart,1197831,19/05/2021,South,Arkansas,Little Rock,Men's Street Footwear,26,228,5928,273,Outlet
+728,West Gear,1185732,03/08/2021,Midwest,Wisconsin,Milwaukee,Women's Street Footwear,40,225,9000,2700,In-store
+729,Foot Locker,1185732,08/06/2021,Midwest,Illinois,Chicago,Women's Street Footwear,35,225,7875,2756,Outlet
+730,West Gear,1185732,03/10/2021,Midwest,Wisconsin,Milwaukee,Men's Athletic Footwear,35,225,7875,2756,In-store
+731,West Gear,1185732,03/11/2021,Midwest,Wisconsin,Milwaukee,Women's Athletic Footwear,35,225,7875,2363,In-store
+732,West Gear,1185732,09/03/2021,Midwest,Indiana,Indianapolis,Men's Athletic Footwear,25,225,5625,2250,In-store
+733,Foot Locker,1185732,14/06/2021,Midwest,Illinois,Chicago,Women's Street Footwear,40,225,9000,3150,Outlet
+734,West Gear,1185732,11/05/2021,Midwest,Indiana,Indianapolis,Women's Street Footwear,35,225,7875,2756,In-store
+735,West Gear,1185732,10/08/2021,Midwest,Indiana,Indianapolis,Women's Street Footwear,40,225,9000,3150,In-store
+736,West Gear,1185732,11/09/2021,Midwest,Indiana,Indianapolis,Women's Apparel,40,225,9000,3600,In-store
+737,Foot Locker,1185732,05/01/2020,Northeast,New York,New York,Men's Apparel,55,234,12870,515,Online
+738,West Gear,1185732,16/03/2021,Northeast,West Virginia,Charleston,Men's Apparel,40,225,9000,3600,In-store
+739,Foot Locker,1185732,15/07/2021,Midwest,Illinois,Chicago,Women's Athletic Footwear,40,225,9000,3600,Outlet
+740,Foot Locker,1185732,24/10/2021,South,Texas,Dallas,Women's Street Footwear,35,225,7875,3150,Outlet
+741,West Gear,1185732,18/09/2021,Northeast,West Virginia,Charleston,Women's Athletic Footwear,25,225,5625,2250,In-store
+742,Foot Locker,1185732,28/10/2020,Midwest,Minnesota,Minneapolis,Women's Apparel,35,225,7875,3544,In-store
+743,West Gear,1185732,18/09/2021,Northeast,West Virginia,Charleston,Men's Apparel,35,225,7875,3150,In-store
+744,Foot Locker,1185732,01/02/2020,Northeast,New York,New York,Men's Athletic Footwear,47,234,10998,451,Online
+745,Foot Locker,1185732,24/11/2020,Midwest,Minnesota,Minneapolis,Women's Street Footwear,40,225,9000,2700,Outlet
+746,Foot Locker,1185732,24/01/2021,Northeast,West Virginia,Charleston,Men's Athletic Footwear,35,225,7875,2756,In-store
+747,Sports Direct,1197831,19/07/2020,Northeast,New York,New York,Men's Street Footwear,24,234,5616,264,Online
+748,Foot Locker,1185732,24/01/2021,Northeast,West Virginia,Charleston,Women's Street Footwear,25,225,5625,1969,In-store
+749,Sports Direct,1197831,06/08/2020,South,Texas,Houston,Men's Street Footwear,27,234,6318,303,Online
+750,Foot Locker,1185732,24/01/2021,Northeast,West Virginia,Charleston,Women's Apparel,35,225,7875,2363,In-store
+751,Walmart,1197831,07/09/2020,South,Texas,Houston,Women's Street Footwear,46,234,10764,527,Online
+752,Foot Locker,1185732,30/11/2020,Midwest,Minnesota,Minneapolis,Women's Street Footwear,40,225,9000,2700,Outlet
+753,West Gear,1185732,22/02/2021,Northeast,Maryland,Baltimore,Women's Apparel,35,225,7875,2363,In-store
+754,Foot Locker,1185732,22/05/2021,South,Tennessee,Knoxville,Men's Athletic Footwear,35,225,7875,2756,Outlet
+755,Foot Locker,1185732,15/02/2021,Northeast,Maryland,Baltimore,Men's Athletic Footwear,40,225,9000,3150,In-store
+756,Walmart,1197831,20/10/2020,South,Texas,Houston,Men's Street Footwear,43,234,10062,493,Online
+757,Foot Locker,1185732,14/04/2021,Northeast,Delaware,Wilmington,Men's Athletic Footwear,40,225,9000,3150,In-store
+758,West Gear,1185732,10/02/2021,Southeast,Florida,Orlando,Men's Street Footwear,44,234,10296,566,Online
+759,Foot Locker,1185732,23/05/2021,South,Tennessee,Knoxville,Women's Street Footwear,25,225,5625,1969,Outlet
+760,Foot Locker,1185732,14/04/2021,Northeast,Delaware,Wilmington,Women's Street Footwear,30,225,6750,2700,In-store
+761,West Gear,1128299,06/11/2020,West,California,San Francisco,Women's Apparel,49,233,11417,285,Online
+762,Foot Locker,1185732,26/05/2021,Midwest,Nebraska,Omaha,Women's Apparel,35,225,7875,3938,Outlet
+763,Kohl's,1185732,08/02/2021,Northeast,Delaware,Wilmington,Women's Street Footwear,25,225,5625,2250,In-store
+764,Foot Locker,1185732,28/06/2021,Midwest,Nebraska,Omaha,Women's Street Footwear,35,225,7875,2756,Outlet
+765,Kohl's,1185732,06/03/2021,Northeast,New Jersey,Newark,Women's Street Footwear,25,225,5625,2250,In-store
+766,Amazon,1185732,04/11/2021,Northeast,Maine,Portland,Women's Apparel,40,225,9000,3600,Outlet
+767,Kohl's,1185732,06/03/2021,Northeast,New Jersey,Newark,Women's Apparel,35,225,7875,3150,In-store
+768,West Gear,1128299,16/01/2021,West,California,San Francisco,Men's Apparel,64,233,14912,954,Online
+769,Sports Direct,1185732,03/03/2021,Northeast,Connecticut,Hartford,Men's Athletic Footwear,40,225,9000,3600,In-store
+770,West Gear,1128299,17/01/2021,West,California,San Francisco,Women's Apparel,72,233,16776,487,Online
+771,Foot Locker,1185732,10/01/2021,Northeast,Connecticut,Hartford,Men's Athletic Footwear,35,225,7875,2756,In-store
+772,West Gear,1128299,13/02/2021,West,California,San Francisco,Women's Street Footwear,52,233,12116,485,Online
+773,Foot Locker,1185732,18/04/2021,Midwest,Missouri,St. Louis,Men's Apparel,40,225,9000,3150,In-store
+774,Foot Locker,1185732,10/01/2021,Northeast,Connecticut,Hartford,Women's Street Footwear,25,225,5625,2250,In-store
+775,Foot Locker,1185732,19/05/2021,Midwest,Missouri,St. Louis,Women's Athletic Footwear,30,225,6750,2700,In-store
+776,Foot Locker,1185732,10/01/2021,Northeast,Connecticut,Hartford,Women's Apparel,35,225,7875,3150,In-store
+777,Sports Direct,1197831,27/09/2021,South,Texas,Dallas,Women's Apparel,56,233,13048,913,Online
+778,Sports Direct,1185732,24/05/2020,Southeast,Florida,Miami,Women's Street Footwear,52,248,12896,477,Online
+779,Foot Locker,1185732,08/02/2021,Northeast,Rhode Island,Providence,Women's Apparel,35,225,7875,3150,In-store
+780,Foot Locker,1185732,18/10/2021,Midwest,Missouri,St. Louis,Women's Athletic Footwear,25,225,5625,2250,In-store
+781,West Gear,1185732,09/04/2021,Northeast,New York,Albany,Men's Street Footwear,42,248,10416,583,Online
+782,Foot Locker,1185732,08/06/2021,Northeast,Rhode Island,Providence,Women's Street Footwear,40,225,9000,3600,In-store
+783,Foot Locker,1185732,18/10/2021,Midwest,Missouri,St. Louis,Men's Apparel,35,225,7875,2756,In-store
+784,West Gear,1128299,17/06/2021,South,Louisiana,New Orleans,Men's Street Footwear,58,248,14384,734,Online
+785,Amazon,1185732,11/04/2021,Northeast,Vermont,Burlington,Women's Street Footwear,35,225,7875,2756,In-store
+786,West Gear,1128299,18/05/2021,South,Louisiana,New Orleans,Men's Apparel,40,225,9000,4050,In-store
+787,Walmart,1185732,06/05/2020,Northeast,New York,New York,Women's Athletic Footwear,54,225,12150,559,Online
+788,Sports Direct,1197831,20/07/2020,Northeast,New York,New York,Men's Athletic Footwear,34,225,7650,375,Online
+789,Foot Locker,1185732,09/01/2021,Southeast,Georgia,Atlanta,Women's Street Footwear,29,248,7192,280,Online
+790,Sports Direct,1197831,07/08/2020,South,Texas,Houston,Men's Athletic Footwear,38,225,8550,385,Online
+791,Foot Locker,1128299,23/02/2021,West,Arizona,Phoenix,Women's Athletic Footwear,40,225,9000,3150,Online
+792,Foot Locker,1185732,05/07/2021,Southeast,South Carolina,Charleston,Women's Street Footwear,51,248,12648,455,Online
+793,Amazon,1185732,22/06/2021,Southeast,Kentucky,Louisville,Women's Street Footwear,30,225,6750,2700,Online
+794,Foot Locker,1185732,22/01/2020,Northeast,New York,New York,Women's Athletic Footwear,32,248,7936,302,Outlet
+795,Amazon,1185732,21/07/2021,Southeast,Kentucky,Louisville,Women's Athletic Footwear,40,225,9000,3600,Online
+796,Walmart,1197831,12/09/2020,South,Texas,Houston,Men's Athletic Footwear,29,248,7192,280,Outlet
+797,Amazon,1185732,23/09/2021,Southeast,Kentucky,Louisville,Women's Street Footwear,35,225,7875,3150,Online
+798,West Gear,1128299,02/11/2020,South,Texas,Houston,Men's Athletic Footwear,33,248,8184,188,Outlet
+799,Walmart,1197831,20/04/2021,South,Arkansas,Little Rock,Women's Athletic Footwear,20,225,4500,1800,Online
+800,West Gear,1128299,20/01/2021,West,California,San Francisco,Women's Street Footwear,51,248,12648,493,Outlet
+801,Walmart,1197831,14/08/2020,South,Texas,Houston,Women's Street Footwear,33,225,7425,356,Online
+802,Walmart,1197831,04/09/2020,South,Texas,Houston,Women's Apparel,46,225,10350,673,Online
+803,West Gear,1197831,23/01/2021,South,Arkansas,Little Rock,Women's Athletic Footwear,20,225,4500,1800,Online
+804,Sports Direct,1197831,21/10/2021,South,Texas,Dallas,Women's Apparel,65,233,15145,1000,Online
+805,West Gear,1128299,26/01/2021,West,California,San Francisco,Women's Street Footwear,39,248,9672,329,Outlet
+806,West Gear,1128299,01/01/2021,West,California,San Francisco,Men's Athletic Footwear,64,225,14400,518,Online
+807,West Gear,1185732,09/09/2020,Southeast,Florida,Miami,Men's Apparel,62,233,14446,708,Online
+808,West Gear,1128299,26/01/2021,West,California,San Francisco,Women's Street Footwear,52,225,11700,468,Online
+809,West Gear,1197831,20/04/2021,South,Oklahoma,Oklahoma City,Men's Athletic Footwear,25,225,5625,1969,Online
+810,Kohl's,1189833,13/03/2021,West,California,Los Angeles,Men's Street Footwear,34,225,7650,405,Online
+811,West Gear,1197831,20/04/2021,South,Oklahoma,Oklahoma City,Women's Street Footwear,15,225,3375,1350,Online
+812,Kohl's,1189833,20/04/2021,West,California,Los Angeles,Men's Athletic Footwear,47,225,10575,370,Online
+813,West Gear,1197831,19/05/2021,South,Oklahoma,Oklahoma City,Women's Athletic Footwear,35,225,7875,3150,Online
+814,Kohl's,1189833,25/05/2021,West,California,Los Angeles,Men's Street Footwear,49,225,11025,562,Online
+815,Foot Locker,1185732,19/08/2020,Southeast,Florida,Miami,Men's Athletic Footwear,42,225,9450,454,Online
+816,West Gear,1197831,21/10/2021,South,Oklahoma,Oklahoma City,Women's Street Footwear,20,225,4500,1800,Online
+817,Foot Locker,1185732,23/08/2020,Southeast,Florida,Miami,Women's Apparel,42,225,9450,605,Online
+818,Kohl's,1197831,14/02/2021,Midwest,Kansas,Wichita,Men's Apparel,35,225,7875,2756,Online
+819,West Gear,1185732,12/09/2020,Southeast,Florida,Miami,Men's Athletic Footwear,57,225,12825,590,Online
+820,Foot Locker,1197831,13/11/2021,Midwest,Kansas,Wichita,Women's Street Footwear,25,220,5500,1925,Online
+821,Foot Locker,1185732,21/09/2020,Southeast,Florida,Miami,Men's Apparel,52,225,11700,527,Online
+822,West Gear,1185732,06/11/2021,Midwest,Iowa,Des Moines,Women's Street Footwear,35,220,7700,2310,In-store
+823,Sports Direct,1185732,25/09/2020,Southeast,Florida,Miami,Women's Street Footwear,41,225,9225,341,Online
+824,West Gear,1128299,11/01/2021,West,California,San Francisco,Women's Apparel,72,219,15768,552,Online
+825,Sports Direct,1197831,20/05/2021,South,Tennessee,Knoxville,Women's Apparel,61,225,13725,1016,Online
+826,Foot Locker,1185732,18/06/2021,South,Mississippi,Jackson,Men's Street Footwear,44,210,9240,480,Online
+827,West Gear,1128299,31/01/2021,West,California,San Francisco,Men's Athletic Footwear,59,219,12921,375,Online
+828,Sports Direct,1197831,12/09/2021,South,Alabama,Birmingham,Men's Street Footwear,38,225,8550,522,Online
+829,Kohl's,1197831,12/03/2021,Midwest,Kansas,Wichita,Men's Athletic Footwear,20,225,4500,1575,Online
+830,Walmart,1197831,20/08/2021,South,Arkansas,Little Rock,Men's Street Footwear,55,210,11550,624,Online
+831,Sports Direct,1197831,07/10/2021,South,Alabama,Birmingham,Men's Athletic Footwear,58,225,13050,835,Online
+832,Foot Locker,1185732,24/05/2020,Southeast,Florida,Miami,Women's Apparel,64,219,14016,883,Online
+833,Kohl's,1197831,12/09/2021,Midwest,Kansas,Wichita,Women's Athletic Footwear,15,225,3375,1181,Online
+834,Sports Direct,1197831,22/07/2020,Northeast,New York,New York,Women's Athletic Footwear,27,210,5670,295,Outlet
+835,Foot Locker,1185732,05/12/2021,Southeast,South Carolina,Charleston,Men's Athletic Footwear,58,219,12702,572,Online
+836,Kohl's,1197831,12/09/2021,Midwest,Kansas,Wichita,Men's Apparel,25,225,5625,1969,Online
+837,Walmart,1128299,16/07/2021,Southeast,Florida,Orlando,Men's Athletic Footwear,88,225,19800,792,Online
+838,Walmart,1197831,29/10/2020,South,Texas,Houston,Women's Athletic Footwear,36,210,7560,393,Outlet
+839,Foot Locker,1185732,12/02/2021,Midwest,Kansas,Wichita,Women's Street Footwear,30,225,6750,2025,Online
+840,Foot Locker,1128299,23/12/2021,Southeast,Virginia,Richmond,Men's Street Footwear,60,225,13500,635,Online
+841,West Gear,1128299,12/11/2020,West,California,San Francisco,Women's Apparel,33,210,6930,152,Outlet
+842,West Gear,1128299,04/11/2020,South,Texas,Houston,Women's Athletic Footwear,35,219,7665,276,Outlet
+843,Foot Locker,1128299,23/12/2021,Southeast,Virginia,Richmond,Men's Athletic Footwear,74,225,16650,749,Online
+844,West Gear,1128299,15/11/2020,West,California,San Francisco,Women's Street Footwear,47,210,9870,415,Outlet
+845,Kohl's,1189833,29/05/2021,West,California,Los Angeles,Men's Apparel,43,219,9417,584,Outlet
+846,Sports Direct,1185732,15/07/2021,Midwest,Michigan,Detroit,Men's Street Footwear,57,225,12825,770,Online
+847,Foot Locker,1185732,11/03/2021,Midwest,South Dakota,Sioux Falls,Women's Street Footwear,30,225,6750,2025,Online
+848,West Gear,1128299,01/02/2021,West,California,San Francisco,Women's Street Footwear,42,210,8820,291,Outlet
+849,Sports Direct,1197831,05/10/2021,South,Texas,Dallas,Men's Athletic Footwear,29,219,6351,298,Outlet
+850,Sports Direct,1185732,17/10/2021,Midwest,Michigan,Detroit,Men's Street Footwear,49,225,11025,673,Online
+851,Foot Locker,1185732,11/03/2021,Midwest,South Dakota,Sioux Falls,Women's Apparel,40,225,9000,3600,Online
+852,West Gear,1128299,08/02/2021,West,California,San Francisco,Women's Athletic Footwear,37,210,7770,225,Outlet
+853,Sports Direct,1197831,17/03/2021,South,Tennessee,Knoxville,Men's Athletic Footwear,23,219,5037,196,Outlet
+854,West Gear,1128299,24/06/2021,West,Oregon,Portland,Men's Street Footwear,51,225,11475,562,Online
+855,Kohl's,1189833,12/03/2021,West,California,Los Angeles,Women's Apparel,29,210,6090,140,Outlet
+856,Foot Locker,1185732,06/08/2021,Southeast,South Carolina,Charleston,Men's Apparel,51,225,11475,528,Online
+857,Sports Direct,1197831,02/05/2021,South,Tennessee,Knoxville,Women's Apparel,30,219,6570,407,Outlet
+858,Kohl's,1189833,08/04/2021,West,California,Los Angeles,Men's Athletic Footwear,34,210,7140,207,Outlet
+859,Foot Locker,1185732,07/10/2021,Southeast,South Carolina,Charleston,Women's Apparel,56,225,12600,819,Online
+860,West Gear,1128299,17/11/2021,South,Louisiana,New Orleans,Men's Street Footwear,28,219,6132,288,Outlet
+861,Kohl's,1189833,09/05/2021,West,California,Los Angeles,Women's Street Footwear,38,210,7980,359,Outlet
+862,Foot Locker,1185732,06/11/2021,Southeast,South Carolina,Charleston,Women's Athletic Footwear,53,225,11925,501,Online
+863,Sports Direct,1197831,05/09/2021,West,Idaho,Boise,Men's Athletic Footwear,38,219,8322,358,Outlet
+864,Kohl's,1189833,12/05/2021,West,California,Los Angeles,Women's Apparel,49,210,10290,226,Outlet
+865,Sports Direct,1185732,05/12/2021,Southeast,South Carolina,Charleston,Men's Apparel,66,225,14850,668,Online
+866,Kohl's,1189833,17/05/2021,West,California,Los Angeles,Men's Apparel,46,210,9660,599,Outlet
+867,Foot Locker,1185732,18/06/2021,South,Mississippi,Jackson,Women's Apparel,51,219,11169,592,Outlet
+868,Amazon,1185732,02/12/2021,Southeast,North Carolina,Charlotte,Women's Apparel,69,225,15525,1009,Online
+869,Sports Direct,1197831,30/08/2021,South,Texas,Dallas,Men's Athletic Footwear,21,210,4410,176,Outlet
+870,West Gear,1128299,02/01/2021,West,California,San Francisco,Women's Street Footwear,60,218,13080,667,Online
+871,Amazon,1185732,09/09/2021,Midwest,Ohio,Columbus,Men's Street Footwear,50,225,11250,608,Online
+872,Sports Direct,1197831,03/09/2021,South,Texas,Dallas,Women's Apparel,22,210,4620,263,Outlet
+873,West Gear,1128299,15/01/2021,West,California,San Francisco,Women's Athletic Footwear,55,218,11990,480,Online
+874,Foot Locker,1185732,18/02/2021,Southeast,Kentucky,Louisville,Men's Street Footwear,28,225,6300,328,Online
+875,Sports Direct,1197831,17/05/2021,South,Tennessee,Knoxville,Women's Street Footwear,44,210,9240,471,Outlet
+876,West Gear,1128299,28/01/2021,West,California,San Francisco,Men's Apparel,63,218,13734,797,Online
+877,West Gear,1128299,02/01/2021,West,California,San Francisco,Women's Street Footwear,46,225,10350,455,Outlet
+878,Sports Direct,1197831,03/09/2021,South,Alabama,Birmingham,Women's Athletic Footwear,31,210,6510,391,Outlet
+879,West Gear,1128299,05/01/2021,West,California,San Francisco,Women's Apparel,58,225,13050,300,Outlet
+880,Foot Locker,1128299,23/07/2021,Southeast,Virginia,Richmond,Men's Apparel,72,210,15120,650,Outlet
+881,West Gear,1128299,28/01/2021,West,California,San Francisco,Men's Apparel,43,225,9675,464,Outlet
+882,West Gear,1128299,17/06/2021,South,Louisiana,New Orleans,Women's Street Footwear,55,210,11550,508,Outlet
+883,Kohl's,1189833,20/04/2021,West,California,Los Angeles,Men's Athletic Footwear,35,225,7875,236,Outlet
+884,West Gear,1128299,16/07/2021,South,Louisiana,New Orleans,Women's Street Footwear,69,210,14490,681,Outlet
+885,Sports Direct,1197831,10/10/2021,South,Texas,Dallas,Men's Street Footwear,31,225,6975,300,Outlet
+886,West Gear,1197831,05/05/2021,West,Idaho,Boise,Men's Street Footwear,14,210,2940,123,Outlet
+887,Sports Direct,1197831,20/05/2021,South,Tennessee,Knoxville,Women's Apparel,49,225,11025,695,Outlet
+888,Sports Direct,1197831,05/11/2021,West,Idaho,Boise,Women's Street Footwear,42,210,8820,370,Outlet
+889,Sports Direct,1197831,31/08/2021,South,Alabama,Birmingham,Men's Street Footwear,30,225,6750,324,Outlet
+890,Kohl's,1128299,25/07/2021,West,New Mexico,Albuquerque,Men's Athletic Footwear,45,210,9450,406,Outlet
+891,Sports Direct,1197831,11/10/2021,South,Alabama,Birmingham,Women's Apparel,56,225,12600,907,Outlet
+892,Sports Direct,1197831,21/02/2021,South,Mississippi,Jackson,Men's Street Footwear,17,210,3570,161,Outlet
+893,Foot Locker,1128299,23/12/2021,Southeast,Virginia,Richmond,Men's Athletic Footwear,54,225,12150,498,Outlet
+894,West Gear,1128299,01/11/2020,South,Texas,Houston,Men's Street Footwear,37,209,7733,348,Online
+895,West Gear,1128299,23/12/2021,West,Oregon,Portland,Men's Street Footwear,51,225,11475,482,Outlet
+896,Foot Locker,1185732,11/07/2021,Midwest,South Dakota,Sioux Falls,Women's Street Footwear,40,225,9000,2700,Online
+897,Sports Direct,1185732,24/05/2020,Southeast,Florida,Miami,Women's Athletic Footwear,54,209,11286,485,Online
+898,Foot Locker,1185732,12/08/2021,Midwest,South Dakota,Sioux Falls,Women's Street Footwear,40,225,9000,2700,Online
+899,Foot Locker,1197831,04/12/2021,West,Idaho,Boise,Men's Athletic Footwear,51,209,10659,576,Online
+900,Kohl's,1189833,27/04/2021,West,California,Los Angeles,Women's Street Footwear,47,218,10246,533,Online
+901,Sports Direct,1185732,09/02/2021,Midwest,South Dakota,Sioux Falls,Women's Street Footwear,25,225,5625,1688,Online
+902,Foot Locker,1185732,06/04/2021,Southeast,South Carolina,Charleston,Women's Apparel,39,209,8151,514,Online
+903,Kohl's,1189833,13/05/2021,West,California,Los Angeles,Men's Street Footwear,49,224,10976,549,Online
+904,Kohl's,1189833,03/05/2021,West,California,Los Angeles,Women's Street Footwear,48,218,10464,534,Online
+905,Sports Direct,1185732,08/03/2021,Midwest,North Dakota,Fargo,Women's Street Footwear,20,225,4500,1350,Online
+906,Foot Locker,1185732,07/06/2021,Southeast,South Carolina,Charleston,Women's Street Footwear,47,209,9823,354,Online
+907,Sports Direct,1197831,11/10/2021,South,Texas,Dallas,Men's Athletic Footwear,37,218,8066,403,Online
+908,Sports Direct,1197831,09/09/2021,South,Texas,Dallas,Women's Apparel,43,224,9632,626,Online
+909,West Gear,1128299,10/03/2020,West,Nevada,Las Vegas,Men's Athletic Footwear,50,209,10450,261,Outlet
+910,West Gear,1128299,07/02/2020,West,Nevada,Las Vegas,Men's Street Footwear,58,218,12644,670,Online
+911,Sports Direct,1197831,10/09/2021,South,Texas,Dallas,Men's Street Footwear,41,224,9184,413,Online
+912,Sports Direct,1197831,27/04/2021,South,Tennessee,Knoxville,Men's Street Footwear,40,209,8360,418,Outlet
+913,Sports Direct,1185732,06/10/2020,Southeast,Florida,Miami,Men's Athletic Footwear,49,224,10976,527,Online
+914,Foot Locker,1185732,16/08/2020,Southeast,Florida,Miami,Men's Apparel,53,218,11554,555,Online
+915,Foot Locker,1197831,05/01/2021,South,Louisiana,New Orleans,Men's Athletic Footwear,20,209,4180,150,Outlet
+916,Sports Direct,1197831,04/04/2021,South,Tennessee,Knoxville,Men's Athletic Footwear,23,218,5014,251,Online
+917,Sports Direct,1128299,13/08/2021,Southeast,Georgia,Atlanta,Men's Street Footwear,39,209,8151,375,Outlet
+918,Foot Locker,1128299,10/08/2021,West,Hawaii,Honolulu,Men's Athletic Footwear,71,218,15478,526,Online
+919,Sports Direct,1185732,07/10/2020,Southeast,Florida,Miami,Women's Street Footwear,46,224,10304,381,Online
+920,Sports Direct,1128299,12/12/2021,Southeast,Georgia,Atlanta,Men's Street Footwear,42,209,8778,413,Outlet
+921,Kohl's,1185732,10/12/2021,West,Wyoming,Cheyenne,Men's Street Footwear,52,224,11648,711,Online
+922,West Gear,1185732,09/08/2021,Northeast,New York,Albany,Women's Apparel,55,218,11990,719,Online
+923,Foot Locker,1185732,09/01/2021,Southeast,Georgia,Atlanta,Women's Athletic Footwear,25,209,5225,183,Outlet
+924,Walmart,1185732,16/07/2021,South,Mississippi,Jackson,Women's Apparel,49,209,10241,543,Outlet
+925,Kohl's,1185732,11/11/2021,West,Wyoming,Cheyenne,Men's Street Footwear,53,218,11554,705,Online
+926,Sports Direct,1185732,08/03/2021,Midwest,North Dakota,Fargo,Women's Apparel,30,225,6750,2700,Online
+927,Amazon,1185732,10/07/2021,Northeast,Vermont,Burlington,Men's Street Footwear,45,209,9405,489,Outlet
+928,West Gear,1185732,11/02/2021,Midwest,Missouri,St. Louis,Men's Street Footwear,25,218,5450,289,Online
+929,West Gear,1128299,16/02/2021,West,California,San Francisco,Women's Apparel,67,208,13936,321,Online
+930,West Gear,1128299,23/12/2021,West,Oregon,Portland,Men's Athletic Footwear,72,218,15696,738,Online
+931,Sports Direct,1185732,08/07/2021,Midwest,North Dakota,Fargo,Women's Street Footwear,40,225,9000,2700,In-store
+932,Kohl's,1189833,13/04/2021,West,California,Los Angeles,Men's Street Footwear,41,208,8528,443,Online
+933,Sports Direct,1185732,09/08/2021,Midwest,North Dakota,Fargo,Women's Street Footwear,40,225,9000,2700,In-store
+934,Sports Direct,1197831,22/09/2021,South,Texas,Dallas,Men's Street Footwear,49,208,10192,520,Online
+935,Foot Locker,1185732,05/03/2021,Midwest,Iowa,Des Moines,Women's Street Footwear,10,225,2250,675,In-store
+936,Sports Direct,1197831,23/09/2021,South,Texas,Dallas,Men's Athletic Footwear,53,208,11024,551,Online
+937,Foot Locker,1185732,07/05/2021,Midwest,Iowa,Des Moines,Men's Athletic Footwear,40,225,9000,3150,In-store
+938,West Gear,1185732,24/04/2020,Southeast,Florida,Miami,Women's Apparel,44,208,9152,549,Online
+939,Foot Locker,1185732,05/07/2021,Midwest,Iowa,Des Moines,Women's Street Footwear,40,225,9000,2700,In-store
+940,West Gear,1185732,07/09/2020,Southeast,Florida,Miami,Women's Street Footwear,49,208,10192,357,Online
+941,West Gear,1185732,15/09/2020,Southeast,Florida,Miami,Men's Apparel,61,208,12688,622,Online
+942,Foot Locker,1128299,09/07/2021,West,Hawaii,Honolulu,Men's Street Footwear,74,208,15392,570,Online
+943,Foot Locker,1185732,06/08/2021,Midwest,Iowa,Des Moines,Women's Street Footwear,40,225,9000,2700,In-store
+944,West Gear,1185732,10/10/2021,Northeast,New York,Albany,Men's Street Footwear,57,208,11856,676,Online
+945,Kohl's,1185732,11/04/2021,West,Wyoming,Cheyenne,Men's Street Footwear,39,208,8112,503,Online
+946,Foot Locker,1185732,07/09/2021,Midwest,Iowa,Des Moines,Women's Apparel,40,225,9000,3600,In-store
+947,Kohl's,1185732,10/09/2021,West,Wyoming,Cheyenne,Men's Street Footwear,48,208,9984,639,Online
+948,West Gear,1185732,02/03/2021,Midwest,Wisconsin,Milwaukee,Women's Street Footwear,10,225,2250,675,In-store
+949,West Gear,1185732,10/07/2021,West,Utah,Salt Lake City,Men's Street Footwear,34,224,7616,396,Online
+950,Sports Direct,1185732,02/07/2021,Southeast,North Carolina,Charlotte,Men's Athletic Footwear,58,224,12992,650,Online
+951,Sports Direct,1197831,24/07/2020,South,Texas,Houston,Women's Apparel,25,224,5600,314,Outlet
+952,West Gear,1197831,05/05/2021,West,Idaho,Boise,Women's Apparel,42,218,9156,577,Online
+953,Sports Direct,1197831,02/08/2020,South,Texas,Houston,Women's Street Footwear,23,224,5152,216,Outlet
+954,West Gear,1128299,16/07/2021,South,Louisiana,New Orleans,Men's Athletic Footwear,92,203,18676,1027,Online
+955,Foot Locker,1185732,07/02/2021,Southeast,Georgia,Atlanta,Men's Athletic Footwear,39,218,8502,391,Online
+956,West Gear,1197831,05/05/2021,West,Idaho,Boise,Men's Street Footwear,18,203,3654,183,Online
+957,Walmart,1197831,27/08/2020,South,Texas,Houston,Women's Athletic Footwear,28,224,6272,326,Outlet
+958,Kohl's,1128299,26/06/2021,West,New Mexico,Albuquerque,Men's Street Footwear,52,203,10556,507,Online
+959,Kohl's,1128299,25/07/2021,West,New Mexico,Albuquerque,Men's Street Footwear,54,203,10962,515,Online
+960,West Gear,1128299,09/01/2021,West,California,San Francisco,Women's Athletic Footwear,41,224,9184,377,Outlet
+961,Sports Direct,1128299,12/12/2021,Southeast,Georgia,Atlanta,Men's Street Footwear,50,203,10150,558,Online
+962,West Gear,1128299,04/02/2021,West,California,San Francisco,Women's Apparel,46,224,10304,124,Outlet
+963,Foot Locker,1185732,09/01/2021,Southeast,Georgia,Atlanta,Women's Athletic Footwear,34,203,6902,304,Online
+964,Foot Locker,1197831,06/07/2021,West,Idaho,Boise,Women's Apparel,64,208,13312,919,Online
+965,Sports Direct,1185732,04/02/2021,Southeast,North Carolina,Charlotte,Women's Apparel,29,203,5887,353,Online
+966,Kohl's,1189833,17/02/2021,West,California,San Francisco,Men's Street Footwear,26,224,5824,250,Outlet
+967,Foot Locker,1185732,07/10/2021,Southeast,South Carolina,Charleston,Men's Athletic Footwear,42,208,8736,437,Online
+968,Kohl's,1189833,18/02/2021,West,California,San Francisco,Men's Athletic Footwear,35,224,7840,235,Outlet
+969,Sports Direct,1185732,02/05/2021,Southeast,North Carolina,Charlotte,Women's Apparel,51,203,10353,642,Online
+970,Walmart,1197831,30/10/2020,South,Texas,Houston,Men's Apparel,30,208,6240,225,Outlet
+971,Sports Direct,1185732,02/07/2021,Southeast,North Carolina,Charlotte,Women's Athletic Footwear,52,203,10556,538,Online
+972,Kohl's,1189833,29/04/2021,West,California,Los Angeles,Men's Apparel,38,224,8512,511,Outlet
+973,Kohl's,1189833,18/03/2021,West,California,Los Angeles,Women's Apparel,32,208,6656,173,Outlet
+974,Sports Direct,1185732,02/09/2021,Southeast,North Carolina,Charlotte,Women's Apparel,41,203,8323,508,Online
+975,Kohl's,1189833,06/05/2021,West,California,Los Angeles,Women's Apparel,46,208,9568,220,Outlet
+976,Walmart,1185732,16/09/2021,South,Mississippi,Jackson,Men's Street Footwear,47,203,9541,515,Online
+977,Kohl's,1189833,30/04/2021,West,California,Los Angeles,Women's Apparel,51,224,11424,263,Outlet
+978,Kohl's,1189833,15/05/2021,West,California,Los Angeles,Women's Street Footwear,33,208,6864,288,Outlet
+979,Walmart,1197831,21/06/2021,South,Arkansas,Little Rock,Men's Street Footwear,36,203,7308,365,Online
+980,Kohl's,1189833,18/05/2021,West,California,Los Angeles,Women's Apparel,46,208,9568,230,Outlet
+981,West Gear,1197831,19/12/2021,South,Arkansas,Little Rock,Men's Street Footwear,67,203,13601,748,Online
+982,West Gear,1128299,14/02/2020,West,Nevada,Las Vegas,Men's Athletic Footwear,56,208,11648,338,Outlet
+983,Kohl's,1189833,28/05/2021,West,California,Los Angeles,Women's Athletic Footwear,35,224,7840,314,Outlet
+984,Sports Direct,1197831,23/08/2021,South,Texas,Dallas,Men's Street Footwear,21,203,4263,166,Outlet
+985,Walmart,1128299,16/07/2021,Southeast,Florida,Orlando,Men's Apparel,68,208,14144,311,Outlet
+986,Sports Direct,1197831,25/08/2021,South,Alabama,Birmingham,Men's Street Footwear,7,224,1568,74,Outlet
+987,Sports Direct,1197831,29/09/2021,South,Texas,Dallas,Men's Athletic Footwear,38,203,7714,363,Outlet
+988,Foot Locker,1128299,24/06/2021,Southeast,Virginia,Richmond,Women's Street Footwear,58,208,12064,446,Outlet
+989,Foot Locker,1185732,07/06/2021,Southeast,South Carolina,Charleston,Women's Athletic Footwear,47,218,10246,461,Online
+990,Walmart,1128299,17/06/2021,Southeast,Florida,Orlando,Men's Athletic Footwear,53,224,11872,344,Outlet
+991,Sports Direct,1197831,28/03/2021,South,Tennessee,Knoxville,Men's Street Footwear,13,203,2639,119,Outlet
+992,Foot Locker,1128299,23/07/2021,Southeast,Virginia,Richmond,Women's Street Footwear,62,208,12896,490,Outlet
+993,Foot Locker,1128299,23/07/2021,Southeast,Virginia,Richmond,Men's Athletic Footwear,60,224,13440,511,Outlet
+994,Amazon,1185732,02/12/2021,Southeast,North Carolina,Charlotte,Women's Street Footwear,55,218,11990,611,Online
+995,West Gear,1185732,11/06/2021,West,Utah,Salt Lake City,Men's Street Footwear,21,208,4368,188,Outlet
+996,Sports Direct,1197831,29/03/2021,South,Tennessee,Knoxville,Men's Athletic Footwear,17,203,3451,145,Outlet
+997,West Gear,1128299,17/06/2021,South,Louisiana,New Orleans,Men's Athletic Footwear,55,224,12320,554,Outlet
+998,Amazon,1185732,10/04/2021,Midwest,Ohio,Columbus,Men's Street Footwear,28,218,6104,336,Online
+999,West Gear,1128299,24/06/2021,West,Oregon,Portland,Women's Street Footwear,53,208,11024,430,Outlet
+1000,Sports Direct,1197831,29/04/2021,South,Tennessee,Knoxville,Women's Street Footwear,40,203,8120,414,Outlet
