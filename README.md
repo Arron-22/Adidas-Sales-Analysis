@@ -15,6 +15,8 @@ Insights and recommendations are provided on the following key areas:
 
 •	Underperforming Sales: An insight on underperforming products or regions
 
+An interactive Tableau Dashboard can be found here https://public.tableau.com/app/profile/arron.lohia/viz/AdidasDashboard_17755760782680/Adidas
+
 Dataset:
 
 The dataset contains transactional sales data for Adidas products across the United States. The dataset consists of 13 tables and 9637 fields, each record represents a sales transaction and includes information on product, retailer, location (region, state, city), sales method, and financial metrics such as total sales and operating profit. 
