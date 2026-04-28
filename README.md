@@ -1,6 +1,6 @@
-Adidas US Sales Report 2020-2021
+**Adidas US Sales Report 2020-2021**
 
-Project Background:
+**Project Background:**
 
 Adidas is one of the largest sportswear manufactures in the world where they design and manufacture athletic footwear, apparel and accessories through their websites/stores.
 
@@ -17,11 +17,11 @@ Insights and recommendations are provided on the following key areas:
 
 An interactive Tableau Dashboard can be found here https://public.tableau.com/app/profile/arron.lohia/viz/AdidasDashboard_17755760782680/Adidas
 
-Dataset:
+**Dataset:**
 
 The dataset contains transactional sales data for Adidas products across the United States. The dataset consists of 13 tables and 9637 fields, each record represents a sales transaction and includes information on product, retailer, location (region, state, city), sales method, and financial metrics such as total sales and operating profit. 
 
-Overview of Findings:
+**Overview of Findings:**
 
 Between 2020 and 2021 Adidas Sales showed noticeable functions rather than a consistent trend. Sales peaked in January	at approximately $974,808 followed by a steady decline over the subsequent months, reaching a significant low of $327,243 in March 2021. While this drop may be partially attributed to a return to pre-pandemic conditions, further analysis will explore additional factors influencing sales performance and to highlight potential areas for improvements.
 
@@ -30,9 +30,9 @@ Below is the overview from the Tableau dashboard and more examples are included 
 <img width="940" height="383" alt="image" src="https://github.com/user-attachments/assets/0c49502a-a5ef-465f-8fea-049e3a1720ed" />
 
 
-Insights Deep Dive:
+**Insights Deep Dive:**
 
-Sales Trends:
+**Sales Trends:**
 
 •	The company sales peaked in January 2021 with 25,265 units sold totalling a $974,808 monthly revenue. The peak started in December 2020, which corresponds to the season at the time Christmas, with also Promotions being ran at that time.
 
@@ -40,7 +40,7 @@ Sales Trends:
 
 •	Sales peaked in January 2021, with a decline over the next few months, where it picked up in March and started to be upwards trend until October where Sales dropped from $736,901 in September to $185,632 in November 2021.
 
-Product:
+**Product:**
 
 •	Adidas Men’s Street Footwear is the highest-performing product, generating $3,100,328 in total sales, significantly outperforming the second highest product Men’s Athletic Footwear $2,025,904. This may be driven by marketing and sponsorship in major sports such as football and basketball.
 
@@ -51,7 +51,7 @@ Product:
 •	Other products categories, including Men’s Athletic Footwear and apparel, show relatively stable but lower performance across metrics such as units sold and price per unit, indicating potential opportunities for growth through targeted marketing or pricing strategies.
 <img width="940" height="383" alt="image" src="https://github.com/user-attachments/assets/7f50c7fe-b5bc-49f6-a795-b888669b91f2" />
 
-Region:
+**Region:**
 
 •	California, Texas and New York are the top-performing states across all key metrics, contributing the highest levels of sales and profit.
 
@@ -63,7 +63,7 @@ Region:
 
 <img width="940" height="498" alt="image" src="https://github.com/user-attachments/assets/f6c945d2-09a9-43ec-98d6-06e200036fa0" />
 
-Retailer:
+**Retailer:**
 
 •	Adidas has 5 different retailer partners Amazon, Foot Locker, Kohl’s, Sports Direct and Walmart. 
 
@@ -73,7 +73,7 @@ Retailer:
 
 •	Despite being available in 5 states Walmart demonstrates strong efficiency, having generated $1,833,110 total sales with 44,324 units sold, indicating high sales volume relative to being available in 5 states.
 
-Recommendations:
+**Recommendations:**
 
 Based upon the uncovered insights, the following recommendations have been provided:
 
